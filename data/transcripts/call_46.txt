@@ -1,0 +1,16 @@
+User: Hello? Hello? 
+Agent: Hello, this is Sara calling from [CLINIC] [LOCATION]. May I speak with [NAME]?
+User: This is her. 
+User: Hi. I was actually just to be ready to call you. 
+Agent: Thank you, [NAME]. I’m calling to remind you of your appointment on Thursday, [DOB]enth at ten forty AM with Daya Babariya at our [CLINIC] [LOCATION] location.
+
+Are you still able to attend this appointment?
+User: No idea. I'm ill. 
+Agent: I’m sorry to hear that you’re not feeling well. Would you like to reschedule your appointment to a different date, or would you prefer to cancel it for now?
+User: Just cancel it for now. 
+Agent: I understand. May I ask the reason for your cancellation today?
+User: I still have COVID, and now I have Bathsitis on my breath. 
+User: And I'm happy to get on antibiotics. 
+Agent: Thank you for letting me know, [NAME]. Just to confirm, if you are experiencing any difficulty breathing or chest pain, please hang up and dial 9-1-1 immediately.
+
+I will go ahead and cancel your appointment now.

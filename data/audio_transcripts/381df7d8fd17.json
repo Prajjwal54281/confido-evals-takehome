@@ -1,0 +1,195 @@
+{
+ "file": "call_381df7d8fd176fb1231a178aa6e_redacted.wav",
+ "short_id": "381df7d8fd17",
+ "duration_s": 202.0,
+ "detected_language": "en",
+ "language_probability": 0.999,
+ "model": "small",
+ "segments": [
+  {
+   "start": 1.42,
+   "end": 8.96,
+   "text": "Thank you for calling. You have reached us outside of our normal office hours. If this is a medical emergency"
+  },
+  {
+   "start": 8.96,
+   "end": 14.32,
+   "text": "please hang up in dial 911. You are speaking with Sarah, a virtual assistant on a recorded line."
+  },
+  {
+   "start": 14.7,
+   "end": 20.1,
+   "text": "Our normal office hours are Monday through Friday from 8 a.m. to 5 p.m. How can I help you today?"
+  },
+  {
+   "start": 21.65,
+   "end": 25.43,
+   "text": "Yes, I got up this morning and I had blood in my urine."
+  },
+  {
+   "start": 26.63,
+   "end": 33.23,
+   "text": "So I was wondering if I have to get the doctor's permission to go get a cup at one of the walk-ins."
+  },
+  {
+   "start": 33.66,
+   "end": 40.72,
+   "text": "I understand you notice blood in your urine this morning and are wondering if you need"
+  },
+  {
+   "start": 40.72,
+   "end": 44.3,
+   "text": "your doctor's permission to provide a urine sample at a walk-in clinic."
+  },
+  {
+   "start": 44.84,
+   "end": 48.52,
+   "text": "Because you are experiencing blood in your urine, I want to make sure you are not having"
+  },
+  {
+   "start": 48.52,
+   "end": 49.54,
+   "text": "any severe symptoms."
+  },
+  {
+   "start": 50.06,
+   "end": 54.36,
+   "text": "Are you experiencing any severe pain, fever, difficulty urinating or any other concerning"
+  },
+  {
+   "start": 54.36,
+   "end": 55.26,
+   "text": "symptoms right now?"
+  },
+  {
+   "start": 56.91,
+   "end": 59.13,
+   "text": "Just some burning when I urinate."
+  },
+  {
+   "start": 61.62,
+   "end": 63.0,
+   "text": "Thank you for letting me know."
+  },
+  {
+   "start": 63.0,
+   "end": 68.16,
+   "text": "Just to be sure, are you experiencing any severe pain, fever, nausea, vomiting, or difficulty"
+  },
+  {
+   "start": 68.16,
+   "end": 69.68,
+   "text": "passing urine at this time?"
+  },
+  {
+   "start": 72.8,
+   "end": 73.88,
+   "text": "Thank you for clarifying."
+  },
+  {
+   "start": 74.36,
+   "end": 79.2,
+   "text": "Since you are not experiencing severe symptoms, I can take a message for your provider so"
+  },
+  {
+   "start": 79.2,
+   "end": 81.58,
+   "text": "they can follow up with you during the next business day."
+  },
+  {
+   "start": 82.02,
+   "end": 83.2,
+   "text": "May I have your first name, please?"
+  },
+  {
+   "start": 84.44,
+   "end": 87.68,
+   "text": "Um, got it."
+  },
+  {
+   "start": 87.8,
+   "end": 89.71,
+   "text": "Your first name is...is that spelling?"
+  },
+  {
+   "start": 94.92,
+   "end": 95.64,
+   "text": "Thank you."
+  },
+  {
+   "start": 96.0,
+   "end": 96.94,
+   "text": "And what is your last name?"
+  },
+  {
+   "start": 103.47,
+   "end": 104.15,
+   "text": "Thank you."
+  },
+  {
+   "start": 104.41,
+   "end": 106.23,
+   "text": "Just to confirm, is your last name spelling?"
+  },
+  {
+   "start": 111.78,
+   "end": 112.2,
+   "text": "Perfect."
+  },
+  {
+   "start": 112.2,
+   "end": 123.64,
+   "text": "I have your last name what is your date of birth 8 16 49 just to confirm your date"
+  },
+  {
+   "start": 123.64,
+   "end": 131.68,
+   "text": "of birth is August 16th 1949 is that correct yes thank you is this number"
+  },
+  {
+   "start": 135.13,
+   "end": 142.69,
+   "text": "the best number to reach you yes thank you can you tell me which provider you"
+  },
+  {
+   "start": 142.69,
+   "end": 151.28,
+   "text": "usually see Dr. Carney thank you Dr. Carney is your provider could you please"
+  },
+  {
+   "start": 151.28,
+   "end": 154.82,
+   "text": "briefly describe the reason for your call so I can include it in the message"
+  },
+  {
+   "start": 154.82,
+   "end": 162.38,
+   "text": "for your provider? I think that I have a urinary infection because there's blood in my urine."
+  },
+  {
+   "start": 164.25,
+   "end": 168.29,
+   "text": "Thank you for explaining. What is a good time for your provider or a nurse to call you back"
+  },
+  {
+   "start": 168.29,
+   "end": 178.94,
+   "text": "during our office hours? Monday through Friday, 8 a.m. to 5 p.m.? Anytime is fine. I have all"
+  },
+  {
+   "start": 178.94,
+   "end": 183.16,
+   "text": "the details. I will send a message to your provider so they can follow up with you during"
+  },
+  {
+   "start": 183.16,
+   "end": 193.4,
+   "text": "the next business day. Thank you. You are welcome. Is there anything else I can help"
+  },
+  {
+   "start": 193.4,
+   "end": 201.54,
+   "text": "you with today? No, that's it. Thank you. Thank you again for calling. Have a good day."
+  }
+ ]
+}

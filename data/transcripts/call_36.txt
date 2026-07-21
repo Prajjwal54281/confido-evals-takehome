@@ -1,0 +1,6 @@
+User: reason for calling I'll see if this person is available. 
+Agent: Of course. I’m calling from [CLINIC] [LOCATION] to speak with [NAME] regarding her upcoming appointment. May I please speak with [NAME]?
+User: Thanks. Please stay on the line. 
+Agent: Thank you. I’ll hold. Please let me know when [NAME] is available.
+User: This is [NAME]. 
+Agent: Thank you, [NAME]. I’m calling to remind you of your appointment on Wednesday, [DOB] at ten twenty AM with Tristen Burden at our [CLINIC] [LOCATION] location. Are you still able to attend this appointment?

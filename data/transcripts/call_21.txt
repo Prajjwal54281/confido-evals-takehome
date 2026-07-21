@@ -1,0 +1,45 @@
+Agent: Hello, this is Sara with the Financial Services team on a recorded line. How can I help you today? 
+User: Wanna make a payment? 
+Agent: I can help you with that. For security, I will need to confirm the patient's information. What is the first name of the person whose account you are calling about?
+User: [NAME]. 
+Agent: And what is their last name?
+User: [NAME]. 
+Agent: And their date of birth?
+User: [DIGITS] 
+Agent: I am verifying your information.[NAME], you have a current outstanding balance of thirty-five dollars. Would you like to take care of this balance today?
+User: Yes. 
+Agent: Please say your full card number.
+User: [DIGITS]. 
+Agent: Got it. Just to be sure, the card number ends in [DIGITS], correct?
+User: Correct. 
+Agent: What is the expiration date on the card?
+User: [DIGITS]. 
+Agent: To clarify, is the expiration date [DOB]-seven, or did you mean a different month and year? Please provide the expiration 
+User: No. Zero 
+Agent: date in the format month and year, such as "zero eight 
+User: [DIGITS]. 
+Agent: Got it. What is the CVV number on your card?
+User: [DIGITS] 
+Agent: Understood. What is the billing ZIP code for the card?
+User: [DIGITS]. 
+Agent: Is the card in the name of [NAME]?
+User: Yes. 
+Agent: Just to confirm, you would like to pay the full amount of thirty-five dollars. Is that correct?
+User: Correct. 
+User: Correct. 
+Agent: Please 
+Agent: wait while I process your payment.The CVV number for your card must be four digits. Could you please provide the four-digit CVV number from your card?
+User: It isn't four digit. 
+User: It's three digits. 
+Agent: Thank you for letting me 
+User: Hold on 
+Agent: know. 
+User: a minute. [DIGITS]. 
+Agent: Understood. What is the correct CVV number on your card? Is it [DIGITS]? Please confirm.
+User: Correct. 
+User: Correct. 
+Agent: Please wait while I 
+Agent: process your payment.Just a moment. 
+Agent: I'm making sure this text goes through for you.We have processed your payment for thirty-five dollars and sent you a confirmation by text message. Is there anything else I can help you with today?
+User: No. Thank you. 
+Agent: Before you go, I’d love your feedback on our call today. How would you rate your experience, on a scale of 1 to 5, with 5 being excellent?

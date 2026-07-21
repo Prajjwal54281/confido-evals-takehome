@@ -1,0 +1,3 @@
+User: Por favor, deje su mensaje para... 
+User: [NAME]. 
+Agent: Hello, this is a message for [NAME] from [CLINIC] [LOCATION]. This is a reminder of an upcoming appointment. Please call us back on this number to confirm. Thank you.

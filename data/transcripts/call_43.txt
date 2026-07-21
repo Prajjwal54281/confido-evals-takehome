@@ -1,0 +1,6 @@
+User: This is Drew. How you do? 
+User: Sorry. Missed you. If you leave a happy and non negative message, I will call you back with the greatest of exuberance. Thanks. Bye. 
+User: At the 
+Agent: Hello, this 
+User: tone, please record your message. When you have finished recording, you may hang up. Or press one for more options. 
+Agent: Hello, this is a message for [NAME] from [CLINIC] [LOCATION]. This is a reminder of an upcoming appointment. Please call us back on this number to confirm. Thank you.

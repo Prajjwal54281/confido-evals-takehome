@@ -1,0 +1,60 @@
+Agent: Hello, this is Sara with [CLINIC] at the [LOCATION] location on a recorded line. How can I help you today?
+User: Do I have to repeat everything I just told to the other person? 
+Agent: I understand that repeating information can be frustrating. I am here to help with prescription refills, medication requests, eye 
+User: Oh, okay. 
+Agent: prescription information, and medical records. Can you tell me what you would like help with today?
+User: Okay. 
+User: Doctor. Barbara, 
+Agent: I 
+User: recommended that I I have some medication for the pressure behind my left eye And, originally, I was gonna have the laser surgery but I've changed my mind, and I'd rather get the eye drops. So I need to get doctor Barber to write a prescription for eye drops. 
+Agent: I am here to help with your medication request. Are you the patient, or are you calling on behalf of [NAME]?
+User: I am the patient. 
+Agent: Thank you for letting me know. To help with your prescription request, I will need to verify your information. Can you please tell me your first name?
+User: Uh, [NAME]. 
+Agent: Thank you, [NAME]. What is your last name?
+User: [NAME] 
+Agent: Thank you, [NAME]. Can you please provide your date of birth?
+User: [DOB]en [DIGITS]. 
+Agent: I am verifying your information.
+Agent: [NAME], I am ready to help with your prescription request for eye drops. Are you still there and would you like to continue?
+User: Yes. 
+Agent: Thank you. Which pharmacy would you like the prescription for your eye drops sent to? Please provide the pharmacy name and address.
+User: It's wise Pharmacy. Know the address right off hand. Do you need that I mean, I can look it up, I guess. 
+Agent: If you can provide the address for Wise Pharmacy, that will help make sure your prescription is sent to the correct location. Would you like to look it up 
+User: Okay. Yeah. Yeah. I 
+Agent: now, or would you prefer that I note it as “not provided” 
+User: I I have it. Just okay. It's [DIGITS] Baltimore Boulevard. 
+User: [LOCATION], 
+Agent: Thank you. Can you please provide the ZIP code for Wise Pharmacy in [LOCATION]?
+User: [DIGITS]. 
+Agent: Thank you. I have Wise Pharmacy at six thirty Baltimore Boulevard, [LOCATION], [STATE], [DIGITS]. 
+
+What is the strength and frequency of the eye drops you need, if you know them? If not, I can note that information as not provided.
+User: I don't know. 
+User: Doctor. Barbara 
+Agent: That is 
+User: didn't say. 
+Agent: I understand. I will note that the strength and frequency were not provided. 
+
+When do you need the prescription filled by? Is there any urgency, such as a surgery planned soon or needing the medication right away?
+User: Well, I've decided not to have the surgery. That's why I doctor Barbara said the other option is that I use eye drops. 
+User: So I'd I'd I'd I'd [NAME], the surgical coordinator, that she would tell Barber that I had changed my decision not to have the laser surgery and that I wanted to use eye drops. 
+Agent: Thank you for explaining. I will note that you have decided not to have the surgery and would like to proceed with the eye drops instead. 
+
+Is there a specific time you 
+User: Right. 
+Agent: need the prescription, or is within two business days acceptable?
+User: No. Two business days is fine. 
+Agent: Understood. I will create a request for Doctor Barbara to prescribe the eye drops to Wise Pharmacy. 
+
+What is the best phone number for our team to contact you if they need more information?
+User: [DIGITS]. 
+Agent: Thank you. When would be a good time for our team to call you back if they need more information? If you do not have a preference, I 
+User: It 
+Agent: can note that as not provided.
+User: there's no preference. 
+User: I mean, it doesn't matter. 
+Agent: Please 
+Agent: wait while I create a request for our teamI have created a request for Doctor Barbara to prescribe the eye drops to Wise Pharmacy. Our team will follow up with you if they need more information. Is there anything else I can help you with 
+User: (inaudible speech)
+Agent: today?

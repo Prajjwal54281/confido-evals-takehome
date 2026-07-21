@@ -1,0 +1,64 @@
+Agent: Hello, this is Sara with the Financial Services team on a recorded line. How can I help you today? 
+User: Hi. I'm calling to make a payment or to pay my balance on my account. 
+Agent: I can help you with that. For security, I will need to 
+User: Okay. 
+Agent: confirm the patient's information. What is the first name of the person whose account you are calling about?
+User: Sure. [NAME] or [NAME]? Could be under. 
+Agent: Thank you. To make sure I have the correct 
+User: Mhmm. 
+Agent: information, can you please confirm the spelling of the first name? Is it [NAME_SPELLED] or [NAME_SPELLED]?
+User: Sure. Yeah. That's correct. Either one. 
+User: I'm not sure how you have it. I go by record legally. It's [NAME]. 
+Agent: Thank you for clarifying. And what is the last name for [NAME]?
+User: [NAME], [NAME_SPELLED]. 
+Agent: Thank you for spelling that out. And what is [NAME]’s date of birth?
+User: [DIGITS]. 
+Agent: Thank you. To confirm, that is [DOB]h, [DIGITS]. Is that correct?
+User: Yes. 
+User: Yes. 
+Agent: I am verifying your information.I found several accounts that might be yours. To make sure I am looking at the right one, do you happen to have your statement handy? If so, I can use the first few digits of your account number to narrow it down.
+User: I don't, but it should've been the surgery I just had about a month ago. 
+Agent: Thank you for letting me know. Do you remember the name of the practice or clinic where you had your surgery? This will help me find the correct 
+User: Yeah. It was 
+Agent: account.
+User: yes. It was the one in Scranton, [STATE]. 
+Agent: Thank you. Was the practice called [CLINIC]?
+User: Yes. 
+Agent: You have a current outstanding balance of four hundred dollars. Would you like to take care of this balance today?
+User: Yes. 
+Agent: Just to confirm, you would like to pay the full amount of four hundred dollars. Is that correct?
+User: Yes. 
+User: Yep. 
+Agent: Please say your full card number.
+User: You take American Express? 
+Agent: Yes, we accept American Express. Please say your full card 
+User: Ok. 
+Agent: number when you are ready.
+Agent: Go 
+User: [DIGITS] 
+Agent: ahead with your full American Express 
+User: Okay. There? 
+Agent: You can continue with the next digits of your card number whenever you are ready.
+User: Alright. I'm gonna start over. 
+Agent: That is perfectly fine. 
+User: [DIGITS]. 
+Agent: Got it. Just to be sure, the card number ends in [DIGITS], correct?
+User: Yes. 
+Agent: What is the expiration date on the card?
+User: [DIGITS]. 
+Agent: Got it. What is the CVV number on your card?
+User: [DIGITS]. 
+Agent: Understood. What is the billing ZIP code for the card?
+User: [DIGITS] 
+Agent: Is the card in the name of [NAME]?
+User: Yes. 
+User: [NAME]. 
+Agent: Thank you. To confirm, the cardholder name is [NAME]. Is that correct?
+User: Yep. Yes. 
+Agent: Please wait while I process 
+Agent: your payment.Just a moment. 
+Agent: I'm making sure this text goes through for you.We have processed your payment for four hundred dollars and will send you a confirmation via text. Is there anything else I can 
+User: I got it. 
+Agent: help you with today?
+User: Nope. Thank you. 
+Agent: Before you go, I’d love your feedback on our call today. How would you rate your 

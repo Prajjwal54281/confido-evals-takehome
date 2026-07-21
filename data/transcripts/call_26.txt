@@ -1,0 +1,32 @@
+Agent: Hello, this is Lucy calling from the billing department of Dr. Sidney Chang's office on a recorded line. Am I speaking with [NAME]?
+User: Yes. 
+Agent: For security, can you please confirm your date of birth?
+User: [DIGITS]. 
+Agent: Thank you, [NAME]. I am calling because two statements have now been sent regarding your recent visit at Dr. Sidney Chang. You have a current outstanding balance of sixty-five dollars from your statement dated [DOB]-[DIGITS]. You can make a secure payment with me now. Would you like to do that?
+User: I'm I'm not able to do that right now. 
+Agent: I understand this may be challenging. Would you like to make a partial payment today instead?
+User: I really can't do anything until next Wednesday. 
+User: I'm living on Social Security. 
+Agent: I understand your situation, [NAME]. What date and time next Wednesday would be good for us to call you back?
+User: Hang on just a minute. Now I'll let you know. 
+Agent: Take your time, [NAME]. Please let 
+User: Okay. 
+Agent: me know when you are ready.
+User: It's the thirteenth. 
+Agent: Thank you, [NAME]. What time on Wednesday, the thirteenth, would be good for us to call you back?
+User: Like, probably around noon ish or so. 
+Agent: I will make a note to call you back on Wednesday, the thirteenth, around 
+User: Okay. 
+Agent: twelve PM. Is that correct?
+User: Yes. 
+Agent: Please wait while I create a request for our teamThank 
+User: Okay. It's it's 
+Agent: you, [NAME]. We will call you 
+User: sixty dollars. Right? 
+Agent: Yes, [NAME], your current outstanding balance is sixty-five dollars. Is 
+User: Okay. 
+Agent: there anything else I can help you with today?
+User: No. That would be it. Thank you very much. 
+Agent: Thank you for your time today. Have a 
+User: No 
+Agent: nice day.

@@ -1,0 +1,26 @@
+Agent: Hello, this is Sara with [CLINIC] at the [LOCATION] location on a recorded line. How can I help you today?
+User: Yeah. I was issued a prescription for glasses by doctor Holland. And I away into recycling. So I need this other copy. Please. 
+Agent: I understand you need another copy of your glasses prescription from Dr. Holland. Are you the patient, or are you calling on behalf of [NAME]?
+User: No. I am the patient. 
+Agent: Thank you for confirming. To look up your record, can you please tell me your first name?
+User: [NAME] with a v, 
+Agent: Thank you, [NAME]. And your last name?
+User: Lastly, l a, p as in Peter, [NAME_SPELLED]. 
+Agent: Thank you, [NAME]. Can you please provide your date of birth?
+User: [DIGITS]. 
+Agent: I am verifying your information.
+Agent: [NAME], I am still here and ready to help with your glasses prescription request. Would you like a copy sent by email, or would you prefer to pick it up at the clinic?
+User: Email, please. 
+Agent: Thank you. Do you want the prescription sent to your email address [NAME], or would you like to use a different email?
+User: [NAME]. At g mail dot com, please. 
+Agent: Thank you for confirming. Are you requesting only your glasses prescription, or do you also need a prescription for contacts?
+User: I only need for glasses. 
+Agent: Understood. Do you remember when your last eye exam with Dr. Holland took place, or would you like me to note that the date is not provided?
+User: Doctor Holland on [DOB]. 
+Agent: Thank you. When would be a good time for us to call you back if we need more information?
+User: Any cut. 
+Agent: Thank you. I will create a request for 
+Agent: our team to process your glasses prescription 
+Agent: and send it to your email address. The team typically processes these within two to three business days.I have created a task for our team to process your glasses prescription and send it to your email address. You should receive it within two to three business days. Is there anything else I can help you with today?
+User: Yep. That's perfect. Thank you. 
+Agent: You are welcome, [NAME]. If you need anything else in the future, feel free to call us. Have a great day.

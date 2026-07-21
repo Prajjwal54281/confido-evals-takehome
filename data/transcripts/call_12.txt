@@ -1,0 +1,21 @@
+Agent: Hello, this is Sara with [CLINIC] at the [LOCATION] location on a recorded line. How can I help you today?
+User: I'm calling to have an order place for contact lenses. 
+Agent: I can help with your contact lens prescription request. Are you the patient, or are you calling on behalf of [NAME]?
+User: Patient. 
+Agent: Thank you. To get started, I will need to verify your information. What is your first name?
+User: [NAME]. 
+Agent: And your last name?
+User: [NAME]. 
+Agent: What is your date of birth?
+User: [DOB]. 
+Agent: I am verifying your information.
+Agent: [NAME], are you still there? I am ready to help with your contact lens prescription request. Would you like a prescription for contacts only, or do you also need one for glasses?
+User: Contacts. 
+Agent: Do you know which provider you saw for your eye exam, or would you like me to note that as not provided?
+User: I need to order my contacts. 
+Agent: I understand you need to order your contacts. I will create a request for our team to process your contact lens prescription. When would be a good time for us to call you back if we need more information?
+User: Anytime. 
+Agent: Please wait while I create a 
+Agent: request for our team.I have created a task for our team to process your contact lens prescription request. They will contact you if they need any more information. Is there anything else I can help you with today?
+User: No. 
+Agent: Thank you for calling [CLINIC]. Have a great day.

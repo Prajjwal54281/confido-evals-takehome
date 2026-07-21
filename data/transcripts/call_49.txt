@@ -1,0 +1,3 @@
+User: Please leave your message for 
+User: Try me at [DIGITS]. 
+Agent: Hello, this is a message for [NAME] from [CLINIC] [LOCATION]. This is a call regarding your missed appointment. Please call us back on this number to confirm. Thank you.

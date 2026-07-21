@@ -1,0 +1,240 @@
+{
+ "file": "call_209bf832bf900ff32ece9661d93_redacted.wav",
+ "short_id": "209bf832bf90",
+ "duration_s": 290.1,
+ "detected_language": "en",
+ "language_probability": 0.996,
+ "model": "small",
+ "segments": [
+  {
+   "start": 1.26,
+   "end": 2.26,
+   "text": "Thank you for calling."
+  },
+  {
+   "start": 3.92,
+   "end": 7.48,
+   "text": "Our office is currently closed for the day and will reopen at 7 a.m."
+  },
+  {
+   "start": 7.72,
+   "end": 10.84,
+   "text": "If this is a medical emergency, please hang up and dial 911."
+  },
+  {
+   "start": 11.36,
+   "end": 14.98,
+   "text": "You are speaking with Sarah, a virtual assistant on a recorded line."
+  },
+  {
+   "start": 15.46,
+   "end": 19.76,
+   "text": "Our normal office hours are Monday through Friday from 7 a.m. to 5 p.m."
+  },
+  {
+   "start": 20.0,
+   "end": 23.2,
+   "text": "with our phones open from 8 a.m. to 4 30 p.m."
+  },
+  {
+   "start": 23.4,
+   "end": 24.36,
+   "text": "How can I help you today?"
+  },
+  {
+   "start": 27.13,
+   "end": 27.93,
+   "text": "Fill my prescription."
+  },
+  {
+   "start": 31.63,
+   "end": 34.55,
+   "text": "Okay, I can put in a request for a prescription refill."
+  },
+  {
+   "start": 34.55,
+   "end": 39.55,
+   "text": "Please note that requests submitted after hours will not be reviewed until the"
+  },
+  {
+   "start": 39.55,
+   "end": 43.89,
+   "text": "next business day and can take up to two business days to process. Do you wish to"
+  },
+  {
+   "start": 43.89,
+   "end": 50.48,
+   "text": "continue? Yes. Are you requesting a prescription refill for yourself or for"
+  },
+  {
+   "start": 50.48,
+   "end": 63.01,
+   "text": "someone else? Myself. Can I get your first name please? I want to make sure I"
+  },
+  {
+   "start": 63.01,
+   "end": 67.37,
+   "text": "have your information correct. Can you please tell me your first name and"
+  },
+  {
+   "start": 71.78,
+   "end": 79.4,
+   "text": "what is your last name? Just to confirm your last name is spelled"
+  },
+  {
+   "start": 79.4,
+   "end": 96.97,
+   "text": "that correct? No. Can you please spell your last name for me? Thank you for"
+  },
+  {
+   "start": 96.97,
+   "end": 109.57,
+   "text": "spelling that. So your last name is that correct? No. I apologize for the confusion."
+  },
+  {
+   "start": 110.15,
+   "end": 126.09,
+   "text": "Could you please spell your last name one more time slowly? Thank you. I have your"
+  },
+  {
+   "start": 126.09,
+   "end": 143.72,
+   "text": "last name correct? Yes. Perfect. What is your date of birth? 37 1990. Just to"
+  },
+  {
+   "start": 143.72,
+   "end": 151.79,
+   "text": "confirm your date of birth is March 7th 1990. Is that correct? Yeah. Who is your"
+  },
+  {
+   "start": 151.79,
+   "end": 161.48,
+   "text": "primary care provider? Samantha. Thank you. I do not see a provider named Samantha."
+  },
+  {
+   "start": 163.13,
+   "end": 166.83,
+   "text": "Could you please provide the last name of your provider or let me know if you"
+  },
+  {
+   "start": 166.83,
+   "end": 170.33,
+   "text": "would like to choose from the following providers Nathan Gene, Heather Moore,"
+  },
+  {
+   "start": 170.55,
+   "end": 175.33,
+   "text": "Nicholas Coppins, Hannah Stutz, Caitlin Devlin, Cassidy Abrahamson, or Thea"
+  },
+  {
+   "start": 187.56,
+   "end": 193.02,
+   "text": "Thank you for clarifying. I do not have a provider named Samantha listed."
+  },
+  {
+   "start": 194.61,
+   "end": 197.63,
+   "text": "Would you like to select from the following providers?"
+  },
+  {
+   "start": 198.29,
+   "end": 201.35,
+   "text": "Nathan Jean, Heather Mohr, Nicholas Coppins, Hannah Stutz,"
+  },
+  {
+   "start": 201.55,
+   "end": 203.81,
+   "text": "Caitlin Devlin, Cassidy Abrahamson, or Thea Murphy?"
+  },
+  {
+   "start": 204.29,
+   "end": 208.95,
+   "text": "Or if you are unsure, I can have the team check your primary care provider on file."
+  },
+  {
+   "start": 209.25,
+   "end": 210.15,
+   "text": "Which would you prefer?"
+  },
+  {
+   "start": 212.34,
+   "end": 213.92,
+   "text": "Check my primary care on file."
+  },
+  {
+   "start": 215.47,
+   "end": 216.25,
+   "text": "Thank you."
+  },
+  {
+   "start": 216.25,
+   "end": 219.95,
+   "text": "Please list all the names of the medications you would like refilled."
+  },
+  {
+   "start": 222.24,
+   "end": 223.66,
+   "text": "Adderall 30 milligrams."
+  },
+  {
+   "start": 228.46,
+   "end": 229.12,
+   "text": "Got it."
+  },
+  {
+   "start": 229.52,
+   "end": 231.56,
+   "text": "Can I get the dosage instructions for Adderall?"
+  },
+  {
+   "start": 231.9,
+   "end": 234.06,
+   "text": "For example, how many times per day do you take it?"
+  },
+  {
+   "start": 238.58,
+   "end": 240.04,
+   "text": "30 milligrams once a day."
+  },
+  {
+   "start": 242.76,
+   "end": 243.28,
+   "text": "Thank you."
+  },
+  {
+   "start": 243.7,
+   "end": 245.9,
+   "text": "What is the name and location of your pharmacy?"
+  },
+  {
+   "start": 248.98,
+   "end": 250.34,
+   "text": "Walgreens Kidney Name."
+  },
+  {
+   "start": 252.2,
+   "end": 256.22,
+   "text": "What is a good time to call you back during business hours if we have any questions?"
+  },
+  {
+   "start": 258.41,
+   "end": 258.91,
+   "text": "Anytime."
+  },
+  {
+   "start": 258.91,
+   "end": 282.7,
+   "text": "time. Best number for the callback. Yeah. Yeah. Thank you. I have submitted your prescription"
+  },
+  {
+   "start": 282.7,
+   "end": 287.06,
+   "text": "refill request. It will be reviewed on the next business day. Is there anything else"
+  },
+  {
+   "start": 287.06,
+   "end": 288.12,
+   "text": "I can help you with today?"
+  }
+ ]
+}

@@ -1,0 +1,43 @@
+Agent: Hello, this is Sara with [CLINIC] at the [LOCATION] location on a recorded line. How can I help you today?
+User: I need to change the name of a provider on the medical record notes. 
+Agent: I understand you need to update the provider name on your medical record notes. Are you the patient, or are you calling on behalf of a patient?
+User: I'm calling on behalf of [NAME]. 
+Agent: Thank you for letting me know. May I have the 
+User: You 
+Agent: patient’s first name, please?
+User: [NAME], [NAME_SPELLED]. 
+Agent: Thank you. And what is [NAME]’s last name?
+User: [NAME] 
+Agent: Thank you. What is [NAME]’s date of birth? Please say the full 
+User: [DOB] 
+Agent: date, including the month, day, and 
+User: [DIGITS]. 
+Agent: I am verifying [NAME]'s information.
+Agent: Are you still there? I am ready to help 
+User: Yes. 
+Agent: update the provider name on [NAME]’s medical record notes. Can you please tell me your name and your relationship to [NAME]?
+User: My name is [NAME]. I'm calling from doctor Mehind Yazdani's office. We are the referring provider. 
+Agent: Thank you, [NAME]. To confirm, you are calling from Doctor Mehind Yazdani’s office as the referring provider. What is your contact phone number in case our team needs to reach you?
+User: [DIGITS]. 
+Agent: Thank you. Can you please provide your email address, if available? If not, just let me 
+User: We do 
+Agent: know.
+User: not give out. 
+Agent: Understood. Which provider name needs to be updated on [NAME]’s medical record notes, and what should the new provider name be?
+User: Please remove Kumar Shazdani, and in place, put Mahin, [NAME_SPELLED], Yazdani. 
+Agent: Thank you for clarifying. To confirm, you would like to remove Kumar Shazdani and update the provider name to Mahin Yazdani on [NAME]’s medical record notes. 
+
+What dates of records are you requesting this change for? If you are not sure, you can say “all records.”
+User: [DOB], [DIGITS] and all records moving forward. Doctor Kumar has retired. 
+Agent: Thank you. I will note that the provider name should be updated to Mahin Yazdani for [NAME]’s records starting [DOB], [DIGITS], and for all records moving forward, since Doctor Kumar has retired.
+
+When would be a good time for our team to call you back if they need more information?
+User: Monday through Friday, nine to five. 
+Agent: Thank you. I will create a request for our Medical Records Team to update the provider name as you described. They will contact you at your office number, Monday through Friday, between nine AM and five PM if they need more information.
+
+Please hold while I submit this request.
+Agent: Are you still with me? I am ready to 
+User: Yes. 
+Agent: submit your request to update the provider name on [NAME]’s records. If you need anything else, please let me know. Otherwise, I will proceed with your request now.
+User: That will be all. 
+Agent: Please wait while I create a request for our teamYour request has been submitted to our Medical Records Team. If they need more information, they will contact you at your office number during your preferred 

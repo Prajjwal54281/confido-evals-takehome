@@ -1,0 +1,32 @@
+Agent: Hello, this is Sara with [CLINIC] at the [LOCATION] location on a recorded line. How can I help you today?
+User: Hey. So I was just there with the with [NAME], and y'all prescribed [NAME] with a eye drops, with the eye drops. Um, y'all sent y'all sent them I told you I told you guys to send it to, uh, the CVS at But I checked the the one in Sourington and also the one near Burgess, and they both said that that they don't have anything for 
+Agent: I understand you are calling about [NAME]’s eye drop prescription and you have checked both CVS locations in Souderton and near Burgess, but neither has the prescription on file. I am here to help with that.Are you [NAME], or are you calling on her behalf?
+User: I'm calling on 
+Agent: Thank you for letting me know. What is your name, and what is your relationship to [NAME]?
+User: My name is [NAME], and I am her grandson. 
+Agent: Thank you, [NAME]. To look up [NAME]’s record, I will need her date of birth. Can you provide [NAME]’s date of birth?
+User: Yeah. That's [DOB]. 
+Agent: I am verifying [NAME]'s information now.
+Agent: [NAME], I am still here. I am checking [NAME]’s prescription details now so I can help you with the eye drop request. Please hold on just a moment.
+User: Yep. 
+Agent: I do not see any active prescriptions on file for [NAME] at this time. Can you tell me the name of the eye drops that were prescribed, or any details from the visit or prescription label? This will help me document the request accurately for our team.
+User: No. They didn't really give me any information about the eye drops. They just told me that they sent some eye drops to the CVS in Satterton. 
+Agent: Thank you for letting me know. I will create a request for our team to review [NAME]’s visit and prescription details, and to follow up with you about the eye drops. What is the best phone number for our team to call you back?
+User: This [DIGITS]. 
+Agent: Thank you, [NAME]. When would be a good time for our team to call you back about [NAME]’s prescription? Our office hours are Monday through Thursday, seven thirty AM to four thirty PM.
+User: As soon as possible. 
+Agent: Understood. I will mark this as urgent so our team can follow up with you as soon as possible. Before I submit the request, can you confirm which CVS location you want the prescription sent to—Souderton or the one near Burgess? If you have the address, that would be helpful.
+User: Yeah. Give me one moment. 
+Agent: Of course, take your 
+User: Yeah. The 
+Agent: time. Let me know the 
+User: at 
+User: the address is [DIGITS] [STATE] [DIGITS] Satterton, [STATE] [DIGITS]. 
+Agent: Thank you for providing the address: seven hundred [STATE] one thirteen, Souderton, [STATE], [DIGITS]. I will include this pharmacy information in the request.
+
+I am submitting this as an urgent follow-up for [NAME]’s eye drop prescription. I will have our team review and contact you as soon as possible at [DIGITS] – [DIGITS] – [DIGITS].
+
+Is there anything else you would like help with today?
+User: No. That will be it. 
+Agent: Please wait while I create a request 
+Agent: for our team.I have created a task for our team to review [NAME]’s prescription and follow up with you as soon as possible. If you need anything else in the future, please call us. Have a good day.

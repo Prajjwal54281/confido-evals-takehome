@@ -1,0 +1,47 @@
+Agent: Hello, this is Sara with [CLINIC] at the [LOCATION] location on a recorded line. How can I help you today?
+User: Hi. My name is [NAME] I'm calling on behalf of [NAME] who is a patient of doctor Hodges. I have a question in regards to one of the prescriptions that was written two days ago. 
+User: And I had called earlier, no one has returned the call. So I'm waiting patiently, but I don't have that much longer. I can wait by the phone. But please give a call at [DIGITS] And I would like the name of the person that I would be speaking with, please. 
+Agent: I understand you are calling on behalf of [NAME] regarding a prescription written two days ago by Dr. Hodges, and you have not received a call back yet. I am here to help with that.
+
+To assist you, I will need to verify [NAME]’s information. Can you please provide [NAME]’s last name?
+User: His last name is [NAME], [NAME_SPELLED]. 
+Agent: Thank you for providing the last name, [NAME]. To verify the record, can you please provide [NAME]’s date of birth?
+User: [DOB]. 
+Agent: I 
+Agent: am verifying [NAME]'s information now.
+Agent: I have [NAME]’s information verified. Are you able to share the name of the medication you are calling about, along with the strength and how often it is taken? This will help me address your question about the prescription.
+User: Okay. I can spell the name of it. B as in boy, I, m as in Mary, a apple, t Tom, [NAME_SPELLED]. And the zero point zero three percent. 
+Agent: Thank you for spelling out the medication name, Bimatoprost, with a strength of zero point zero three percent. Can you tell me how often [NAME] is supposed to take this medication?
+User: I don't want I am not sure how to read that part that the 
+Agent: That is okay. If you are not sure about the frequency, I can still document your request. Can you tell me what your specific question is about this prescription for [NAME]?
+User: My question is, the other day, days ago, when a young lady gave us the written prescriptions that he had requested, and all of them were familiar except this one. I said, he does not take that. And I was told that, yes. He does. And I said, the only other one that you did not write up is trabipros. Which he uses trabaprose, but she did not provide a written prescription. This new one was not familiar with it. So I talked to my pharmacist this morning, in person, and according to what the has, on file, he has not gotten where's my paper here? He has not gotten this name of the medication since 
+User: I'll give you the date, since [DOB] of [DIGITS], but it was a different dosage. 
+User: So that was the last they have record of it. I knew we hadn't bought it because I pick them up. I take them down. I pick them up. Call them in the whole works. So I don't know what the person went by, to write this prescription, but it's it's not one that I'm familiar with. So did they change it sometime throughout? And he still takes the travoprost and drop this? I don't know. 
+User: And what's your name again? 
+Agent: My name is Sara, and I am the virtual receptionist for [CLINIC] in [LOCATION]. I will document your 
+User: Ok. 
+Agent: concerns about the Bimatoprost prescription and the confusion regarding the medication history for [NAME].
+
+To clarify, you are asking if there was a change from Travoprost to Bimatoprost, and you want to confirm which medication [NAME] should be taking. Is that correct?
+User: I am to confirm what. I didn't hear that part, ma'am. 
+Agent: Of course. You are asking if [NAME]’s prescription was changed from Travoprost to Bimatoprost, and you want to confirm which medication he should be taking. Is that correct?
+User: Yes. That is correct. Yes, ma'am. That's correct. 
+Agent: Thank you for confirming. I will document your question for our team to review and follow up with you. Can you please confirm the best time for our team to call you back today?
+User: Today, anytime my oh, boy. Today is Thursday. Oh my. Anytime, just so it's not late. What time do you close? 
+User: [DIGITS]
+Agent: We are open until four thirty PM today. I will note that you are available 
+User: Yes. 
+Agent: for a call back any time before four thirty PM.
+
+Is [DIGITS] – [DIGITS] – [DIGITS] the best number for our team to reach you?
+User: Yes, ma'am. 
+User: Yes, ma'am. That is correct. 
+Agent: Thank you for confirming. I will create a task for our team to review [NAME]’s prescription history and clarify whether he should be taking Bimatoprost or Travoprost. Our team will call you at [DIGITS] – [DIGITS] – [DIGITS] before four thirty PM today.
+
+Is there anything else you would like to add about [NAME]’s medications or this request?
+User: Not at this point. 
+Agent: Please 
+User: Thank you for asking. 
+Agent: wait while I create a request for 
+User: Okay. 
+Agent: You are welcome, [NAME]. Our team will review your request and call you before four thirty PM today. If you need anything else, please call us again. Have a good day.

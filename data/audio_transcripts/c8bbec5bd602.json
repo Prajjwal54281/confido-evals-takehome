@@ -1,0 +1,70 @@
+{
+ "file": "call_c8bbec5bd6029b49acd04424a21_redacted.wav",
+ "short_id": "c8bbec5bd602",
+ "duration_s": 97.3,
+ "detected_language": "es",
+ "language_probability": 0.564,
+ "model": "small",
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 15.26,
+   "text": "Thank you for calling for English. Press one. Para espa\u00f1ol, presione dos. Para medicamentos,"
+  },
+  {
+   "start": 15.64,
+   "end": 21.32,
+   "text": "recetas y autorizaciones, presione uno. Para citas y programaci\u00f3n, presione dos."
+  },
+  {
+   "start": 21.96,
+   "end": 34.28,
+   "text": "Si llamo de un hospital, \u00bfen qu\u00e9 le puedo ayudar hoy? \u00bfPuedo asistirle con programaci\u00f3n de"
+  },
+  {
+   "start": 34.28,
+   "end": 47.05,
+   "text": "citas nuevas? \u00bfCitas de seguimiento, confirmaciones o reprogramaciones? \u00bfA lo bueno a m\u00ed? Buenos"
+  },
+  {
+   "start": 47.05,
+   "end": 54.95,
+   "text": "d\u00edas. En qu\u00e9 le puedo ayudar hoy? Hablar con representante, por favor. Con gusto le"
+  },
+  {
+   "start": 54.95,
+   "end": 61.27,
+   "text": "ayudo. Puedo programar una cita de paciente nuevo o de seguimiento, cancelar o reprogramar"
+  },
+  {
+   "start": 61.27,
+   "end": 65.95,
+   "text": "una cita existente o ayudar con un resurtido de receta. \u00bfEn qu\u00e9 le puedo ayudar?"
+  },
+  {
+   "start": 67.43,
+   "end": 73.07,
+   "text": "Sacar una cita, por favor. Perfecto. \u00bfEst\u00e1 buscando programar una consulta"
+  },
+  {
+   "start": 73.07,
+   "end": 77.41,
+   "text": "m\u00e9dica o es para un procedimiento como una endoscop\u00eda o colonoscop\u00eda?"
+  },
+  {
+   "start": 78.31,
+   "end": 86.4,
+   "text": "no para hablar con un representante por favor entiendo puedo ayudarle con citas"
+  },
+  {
+   "start": 86.4,
+   "end": 91.08,
+   "text": "resurtidos o conectarle con el departamento correcto en qu\u00e9 le puedo"
+  },
+  {
+   "start": 91.08,
+   "end": 95.51,
+   "text": "ayudar por favor si me puede comunicar con un operador"
+  }
+ ]
+}

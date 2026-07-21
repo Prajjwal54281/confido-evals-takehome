@@ -1,0 +1,65 @@
+{
+ "file": "call_65ce44e043897a7872d74537982_redacted.wav",
+ "short_id": "65ce44e04389",
+ "duration_s": 117.3,
+ "detected_language": "en",
+ "language_probability": 0.949,
+ "model": "small",
+ "segments": [
+  {
+   "start": 0.08,
+   "end": 7.08,
+   "text": "Thank you for calling. We're speaking with Sara on a recorded line for English. Press one."
+  },
+  {
+   "start": 7.66,
+   "end": 24.65,
+   "text": "Par espa\u00f1ol, presione dos. Thank you for calling. You are speaking with Sara on a"
+  },
+  {
+   "start": 24.65,
+   "end": 43.08,
+   "text": "recorded line for English. Press one. Par espa\u00f1ol, presione dos. You are speaking"
+  },
+  {
+   "start": 43.08,
+   "end": 47.78,
+   "text": "with Sara on a recorded line. Can you please tell me who you are calling as?"
+  },
+  {
+   "start": 51.69,
+   "end": 55.71,
+   "text": "I'm calling for Dr. Masi and we're here to set up here to be a call with him."
+  },
+  {
+   "start": 57.1,
+   "end": 62.16,
+   "text": "Thank you for letting me know. Just to clarify, is this a doctor-to-doctor call"
+  },
+  {
+   "start": 62.16,
+   "end": 81.66,
+   "text": "about a patient? Are you still there? Yeah, I'm here. Thank you for confirming. Since"
+  },
+  {
+   "start": 81.66,
+   "end": 86.28,
+   "text": "you are calling to set up a call with Dr. Maddie, and if this is a doctor-to-doctor"
+  },
+  {
+   "start": 86.28,
+   "end": 102.89,
+   "text": "conversation about a patient, I will connect you with our peer-to-peer team now. Are"
+  },
+  {
+   "start": 102.89,
+   "end": 111.17,
+   "text": "you still there? Yes, I'm here. You are calling to set up a doctor-to-doctor"
+  },
+  {
+   "start": 111.17,
+   "end": 115.75,
+   "text": "call with Dr. Maddie. I will connect you with our peer-to-peer team now."
+  }
+ ]
+}

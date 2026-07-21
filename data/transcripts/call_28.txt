@@ -1,0 +1,13 @@
+User: Hello? 
+Agent: Hello, this is Lucy calling from the billing department of Dr. Sophia Johnson's office on a recorded line. Am I 
+User: Yes. 
+Agent: speaking with [NAME]?
+User: Yes. 
+Agent: Thank you, [NAME]. For security, can you please confirm your date of birth?
+User: No. 
+User: You 
+Agent: I 
+User: called me. 
+Agent: will need the date of birth to 
+User: Well, I don't wanna continue. You don't call someone and ask for their information. That's crazy. 
+Agent: I understand 

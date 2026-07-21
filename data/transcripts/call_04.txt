@@ -1,0 +1,38 @@
+Agent: Hello, this is Sara with [CLINIC] at the [LOCATION] location on a recorded line. How can I help you today?
+User: I'm calling for a patient's iReport to be faxed over. 
+Agent: I can help with that. Are you calling from a provider’s office, or are you the patient?
+User: Calling from a provider's office. 
+Agent: Are you requesting new medical records for the patient, or are you checking on the status of an existing request?
+User: I'd like their most recent iReport to be faxed over for an upcoming appointment. 
+Agent: Are you the provider yourself, or are you calling on behalf of [NAME]?
+User: On behalf of [NAME]. 
+Agent: I will need to collect some details. May I have your full name, please?
+User: [NAME]. 
+Agent: Thank you, [NAME]. What is the best phone number to reach you if our team needs to follow up?
+User: [DIGITS]. 
+Agent: Thank you. Now, may I have the full name of the requesting provider?
+User: Doctor Anthony Silvetti. 
+Agent: Thank you. What is the name of Doctor Silvetti’s organization or practice?
+User: Northeast Site Services. 
+Agent: What is the best contact number for Northeast Site Services?
+User: The number that was already provided. 
+Agent: Thank you. If you have an email address for Doctor Silvetti or the office, could you please provide it? If not, just let me know.
+User: No. 
+Agent: Understood. Now, I will need to verify the patient’s information. May I have the patient’s first name?
+User: [NAME]. 
+Agent: Thank you. And [NAME]’s last name?
+User: Correct. [NAME_SPELLED]. 
+Agent: Thank you. What is [NAME]’s date of birth?
+User: [DIGITS] 
+Agent: I am verifying the patient information now.
+Agent: I am still here and ready to help with your request for [NAME]’s records. Would you please provide the dates of records you are requesting, or should I send the most recent iReport available?
+User: Most recent eye report available. 
+Agent: Thank you. How would you like to receive the records—by fax or email? If fax, please 
+User: By fax. 
+Agent: provide the fax number. If email, please provide the email address.
+User: By fax at [DIGITS]. 
+Agent: Thank you. How soon do you need these records? If you need them within twenty-four hours, I will mark this as urgent. Otherwise, I will process it as standard priority.
+User: Standard priority. 
+Agent: When would be a good time for our team to call you back if they need more information?
+User: Monday through Friday, eight thirty to four thirty. 
+Agent: Please wait while I create a request for our teamI have created a task for our Medical Records Team to fax the most recent eye report for [NAME] to your office. If our team needs more information, they will call you Monday through Friday between eight thirty AM and four thirty PM. Is there anything else I can help you with today?

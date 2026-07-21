@@ -1,0 +1,4 @@
+User: This is [NAME]. Leave a message, please. 
+Agent: Hello, this is [NAME]: At the tone, please record your message. When you've finished recording, you may hang up, or press one for more options. 
+User: To leave a callback number, press five. 
+Agent: Hello, this is a message for [NAME] from [CLINIC] [LOCATION]. This is a reminder of an upcoming appointment. Please call us back on this number to confirm. Thank you.

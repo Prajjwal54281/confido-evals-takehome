@@ -1,0 +1,38 @@
+Agent: Hello, this is Sara with [CLINIC] at the [LOCATION] location on a recorded line. How can I help you today?
+User: Hi, good morning. I'm calling from Lindsay Smith in's office, and I'd like to request some records for a mutual patient. 
+Agent: Good morning. I am happy to help you with that. Are you the provider yourself, or are you calling on behalf of [NAME]?
+User: I'm calling on behalf of [NAME] Smithson. 
+Agent: Thank you for clarifying. May I have your full name, please?
+User: Yes. My name is [NAME] last name [NAME], [NAME_SPELLED]. 
+Agent: Thank you, [NAME]. May I have your contact phone number, please?
+User: [DIGITS]. 
+Agent: Thank you. Now, may I have the full name of the patient whose records you are requesting?
+User: [NAME]? [NAME]. 
+User: That'[NAME_SPELLED]. 
+Agent: Thank you for spelling that. May I have [NAME]’s date of birth, please?
+User: [DIGITS]. 
+Agent: Thank you. To confirm, that is [DOB], [DIGITS]. Now, may I have the name of your organization or practice?
+User: Retina and macular disease 
+User: specialists. 
+Agent: Thank you. May I have the contact number for Retina and Macular Disease Specialists?
+User: [DIGITS]. 
+Agent: Thank you. Do you have an email address for your office that you would like us to use for this records request?
+User: Not at this time. I would prefer a fax. 
+Agent: Understood. Please provide the fax number where you would like the records sent.
+User: [DIGITS]. 
+Agent: Thank you. For the records request, may I have the dates or date range of records you are requesting for [NAME]?
+User: Sure. Everything after [DOB] of [DIGITS] through today? 
+Agent: Thank you. To confirm, you are requesting all records for [NAME] from [DOB]-[DIGITS] through today. What type of records do you need—such as office visit notes, imaging, or all available records?
+User: Office visit notes. 
+Agent: Thank you. How would you like the records delivered—by fax only, or do you need another method as well?
+User: By fax only. 
+Agent: Understood. How soon do you need these records? Is this [NAME], or is standard processing time acceptable?
+User: Urgent by end of business day today. 
+Agent: Thank you for letting me know. When would be a good time for us to call you back if we need more information?
+User: Anytime today. 
+Agent: I am verifying the patient information 
+Agent: for this records request.
+Agent: [NAME], I have all the information I need and am creating an urgent request for [NAME]’s office visit notes from [DOB]-[DIGITS] through today, to be faxed to your office by the end of business day. If you have any additional details, please let me know now. Otherwise, I will proceed.
+User: No additional details. 
+Agent: Please 
+Agent: wait while I create a request for our teamYour urgent request has been submitted to our Medical Records Team. They will fax the office visit notes for [NAME] to your number by the end of business day today. If anything else is needed, our team will call you at the number you provided. Have a great day.

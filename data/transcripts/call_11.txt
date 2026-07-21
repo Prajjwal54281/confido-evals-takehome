@@ -1,0 +1,54 @@
+Agent: Hello, this is Sara with [CLINIC] at the [LOCATION] location on a recorded line. How can I help you today?
+User: Uh, well, I was trying to get the, uh, [LOCATION] line. I I had a prescription or my wife had prescriptions, three prescriptions. We went to the pharmacy, and they said there was a problem with one. They had contact the office on the Thomas Johnson Road, I guess. Are the ones that made the prescription. And I called I know what number I called, but I got to they said it would be resolved by before two o'clock. I was supposed to be in Gettysburg by two o'clock today. They said it would be it would be resolved by [DIGITS], and somebody would contact me. And no one's contacted me. And I I wanna find out what's it what you know, I need I'm supposed to be up at at the seminary and I'm I'm stuck here waiting to find out what's gonna happen with my wife's medicine. 
+User: Doctor is the one that had referred, had given us the prescriptions 
+Agent: I understand this is frustrating, and I am here to help with your wife’s prescription issue. To assist you, I will need to verify your wife’s information. May I have her first name, last name, and date of birth?
+User: [NAME]. [DIGITS]. 
+Agent: Thank you. To confirm, your wife’s first name is [NAME] and her last name is [NAME], with a date of birth of [DOB], [DIGITS]. Is that correct?
+User: It's Gil with a jig. 
+Agent: Thank you for clarifying. So her last name is spelled G-I-L, and her date of birth is [DOB], nineteen 
+User: No. No. 
+Agent: forty-nine. Is her first name spelled [NAME_SPELLED]?
+User: First name is p o k or last name is [NAME_SPELLED]. 
+Agent: Thank you for clarifying. So her first name is P-O-K, and her last name is [NAME_SPELLED], with a date of birth of [DOB], [DIGITS]. Is that correct?
+User: Yes. 
+Agent: I am verifying your wife's information now.
+Agent: I have your wife’s information verified. To help resolve the prescription issue, can you tell me the name of the medication the pharmacy is having trouble with?
+User: It was the broma... Promazac or something like that? 
+Agent: Thank you. Just to confirm, is the medication called Bromfenac, which is an eye drop, or is it another medication? If you 
+User: It it's it's a 
+Agent: are not sure, 
+User: ride. It's an it's an eye drop. 
+Agent: Thank you for confirming it is an eye drop, likely Bromfenac. Can you tell me the strength and how often your wife is supposed to use this medication, if you know?
+User: No. I know she's supposed to use it twice a day. But I don't know what the the doctor didn't put any kind of, like, any any other information. He just said gave us the top the cover to the top of the bottle and how many times a day to take it. 
+Agent: That 
+User: And it 
+Agent: is helpful. 
+User: sounds like it sounds like talking to [NAME] that they they wanna change it to some some other some other drop other than the broken whatever it is. 
+Agent: I understand. It sounds like the pharmacy may want to substitute a different eye drop for the Bromfenac. I will document that you are following up on this issue and that a medication change may be needed.
+
+Can you confirm the name and address of the pharmacy you are using for this prescription?
+User: It's Giant Eagle on Route forty West in [LOCATION]. 
+Agent: Thank you. I have the pharmacy as Giant Eagle on Route forty West in [LOCATION]. 
+
+What is the best 
+User: Yeah. 
+Agent: phone number for our team to call you back if they need more information?
+User: Well, [DIGITS]. 
+User: I called I called at at twelve o'clock. And talked to you evidently. I guess it was you or somebody in your office. And they said it would be resolved before two o'clock so I could go to Gettysburg. And I just called the Giant Eagle, and they said, the the doctors haven't called back yet. Now I was supposed to be for for a meeting between two and four in Gettysburg, and I I gotta get my wife's eye drops for and I I can't get it resolved. And you know, you said the last time they said they would turn it over, and I still had the it's still not done, and it's you know, it's three hours later. 
+Agent: I understand how important this is, and I am sorry for the delay and inconvenience. I will mark this as urgent and make sure our team follows up with you as soon as possible about your wife’s eye drop prescription at Giant Eagle.
+
+When is the best time for our team to call you back today?
+User: Well, you call me anytime, but I I need to go to Gettysburg and and I can't pick it up today if I'll if I'm up in Gettysburg. Because you guys have have have not followed through or something. You know, I don't understand why If if they called you on at at at twelve o'clock, that over three hours, then we can say, well, yeah, change it to this one or or don't change it to this one or whatever. But you say you would call me back and you guys didn't call me back. So I don't know what the team is doing. 
+Agent: I understand your frustration, and I am sorry this has not been resolved. I will document your concerns and mark this as urgent for our team. They will review your wife’s prescription issue and follow up with you as soon as possible at [DIGITS] – [DIGITS] – [DIGITS].
+
+Is there anything else you would like me to include for our team about this situation?
+User: I would like to talk to the doctor and find out if what you know, why can't somebody at the at Thomas Johnson told tell me that, you know, that that told the doctor and have her change it right then and there. I mean, it's like I don't understand what it takes all this time for. 
+Agent: I understand you would like to speak directly with the doctor 
+Agent: or have someone from 
+Agent: the Thomas Johnson office explain why the prescription change is taking so long. I will include this request and your concerns in the urgent message to our team.
+
+I am creating a task now for our staff to review and follow up with you as soon as possible.I have created an urgent task for our team with all your concerns, including your request to speak with [NAME] or someone at the Thomas Johnson office. They will review your wife’s prescription issue and contact you as soon as possible at [DIGITS] – [DIGITS] – [DIGITS].
+
+Is there anything else I can help you with right now?
+User: Obviously not. 
+Agent: I understand. If you need anything else in the future, please call us. I hope your wife’s prescription is resolved quickly. Take care.

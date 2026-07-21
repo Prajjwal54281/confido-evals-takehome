@@ -1,0 +1,12 @@
+Agent: Hello, this is Sara calling from Summit 
+User: (inaudible speech)
+User: Hi there. 
+Agent: Hello, this is Sara calling from [CLINIC] [LOCATION]. May I speak with [NAME]?
+User: Yeah. This is [NAME]. 
+Agent: Thank you, [NAME]. I’m calling to remind you of your appointment on Thursday, [DOB] at eleven AM with Ruchi Jain at our [CLINIC] [LOCATION] location. Are you still able to attend this appointment?
+User: Yes. 
+Agent: Perfect, your appointment has been confirmed. We ask that you arrive fifteen minutes early. Please bring your picture ID and insurance card. If your physician provided you a copy of your referral for therapy, please bring that as well. You should plan on being here for one hour and wear comfortable clothing and gym shoes.
+
+Do you need the address to our clinic?
+User: Nope. 
+Agent: Great, we look forward to seeing you! Is there 

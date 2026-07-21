@@ -1,0 +1,15 @@
+Agent: Hello, this is Lucy calling from the billing department of Dr. Brad Spagnolo's office on a recorded line. Am I speaking with [NAME]?
+User: Speak to [NAME]: I want to make sure I am speaking with [NAME]. Can you please confirm if this is [NAME]?
+User: This is [NAME]. 
+Agent: Thank 
+User: Who is this? 
+Agent: you, [NAME]. For security, can you please confirm your date of birth?
+User: [DOB]. 
+Agent: Thank you for confirming your date of birth as [DOB], [DIGITS]. I am calling because two statements have now been sent regarding your recent visit at Dr. Brad Spagnolo's office. You have a current outstanding balance of fifty dollars from your statement dated [DOB], [DIGITS]. You can make a secure payment with me now. Would you like to do that?
+User: I am not able to make it right now. 
+Agent: I understand this may be challenging. I will do my best to help. Would you like to make a partial payment today instead?
+User: No. 
+User: I'm little 
+Agent: I understand. What date would be good for us to call you back to follow up?
+User: I'll call you back tomorrow. 
+Agent: Thank you. We will call you back tomorrow. Have a good day.

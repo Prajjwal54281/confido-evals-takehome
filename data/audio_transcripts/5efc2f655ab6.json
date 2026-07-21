@@ -1,0 +1,195 @@
+{
+ "file": "call_5efc2f655ab6f8c59ed98858e32_redacted.wav",
+ "short_id": "5efc2f655ab6",
+ "duration_s": 184.0,
+ "detected_language": "en",
+ "language_probability": 0.999,
+ "model": "small",
+ "segments": [
+  {
+   "start": 1.46,
+   "end": 10.54,
+   "text": "This call is being recorded for quality assurance. This call is being recorded for quality assurance. Thank you for calling"
+  },
+  {
+   "start": 11.06,
+   "end": 14.22,
+   "text": "I am Robin a virtual assistant. How can I help you today?"
+  },
+  {
+   "start": 16.88,
+   "end": 20.08,
+   "text": "I want to book an emergency visit with Dr. Perryman"
+  },
+  {
+   "start": 22.16,
+   "end": 22.98,
+   "text": "Got it"
+  },
+  {
+   "start": 23.42,
+   "end": 28.88,
+   "text": "Just to confirm. Are you experiencing any urgent symptoms like sudden vision loss"
+  },
+  {
+   "start": 28.88,
+   "end": 36.5,
+   "text": "Severe pain in or around the eye flashes of light or anything similar. Can you please describe what is going on with your eyes?"
+  },
+  {
+   "start": 39.06,
+   "end": 40.54,
+   "text": "I just have a really terrible"
+  },
+  {
+   "start": 40.74,
+   "end": 46.08,
+   "text": "long case of severe dry eye and I'm having a flare up and I need some help"
+  },
+  {
+   "start": 46.08,
+   "end": 53.66,
+   "text": "with it. Thanks for sharing that. Severe dry eye flare-ups can be very"
+  },
+  {
+   "start": 53.66,
+   "end": 57.18,
+   "text": "uncomfortable. Since you are requesting an emergency visit I will send a"
+  },
+  {
+   "start": 57.18,
+   "end": 60.08,
+   "text": "message to our clinical team so a staff member can return your call"
+  },
+  {
+   "start": 60.08,
+   "end": 64.06,
+   "text": "promptly during our next available business hours. Before I do that may"
+  },
+  {
+   "start": 64.06,
+   "end": 67.28,
+   "text": "I have your first and last name spelled out in your date of birth."
+  },
+  {
+   "start": 67.28,
+   "end": 90.99,
+   "text": "And date of birth is four five eighty-one. Thanks. I have your name and your date of"
+  },
+  {
+   "start": 90.99,
+   "end": 99.74,
+   "text": "birth as April 5th 1981. Is that correct? Yes. Thank you. What is the best phone"
+  },
+  {
+   "start": 99.74,
+   "end": 115.84,
+   "text": "number for our team to call you back? Thanks. Can you briefly describe your"
+  },
+  {
+   "start": 115.84,
+   "end": 119.28,
+   "text": "symptoms or what you would like the doctor to know about your dry eye flare"
+  },
+  {
+   "start": 119.28,
+   "end": 125.19,
+   "text": "up? This will help the team prepare for your call back. Everyone's in a"
+  },
+  {
+   "start": 125.19,
+   "end": 129.33,
+   "text": "While I have a really bad flare up and on Friday night,"
+  },
+  {
+   "start": 129.33,
+   "end": 132.07,
+   "text": "as I was sleeping, going into Saturday morning,"
+  },
+  {
+   "start": 132.31,
+   "end": 133.79,
+   "text": "I must have opened my eyes too quickly"
+  },
+  {
+   "start": 134.39,
+   "end": 136.25,
+   "text": "and actually both my eyes scratched."
+  },
+  {
+   "start": 137.03,
+   "end": 139.55,
+   "text": "And since then my vision is blurry"
+  },
+  {
+   "start": 139.55,
+   "end": 141.31,
+   "text": "and I'm sure it's just temporary,"
+  },
+  {
+   "start": 141.53,
+   "end": 144.01,
+   "text": "but in the meantime, I'm not in pain, this is hurt,"
+  },
+  {
+   "start": 144.11,
+   "end": 145.95,
+   "text": "but it's just uncomfortable"
+  },
+  {
+   "start": 146.55,
+   "end": 148.07,
+   "text": "and frustrating with the vision."
+  },
+  {
+   "start": 148.29,
+   "end": 150.29,
+   "text": "So I'm just wondering if Dr. Payman"
+  },
+  {
+   "start": 150.29,
+   "end": 151.33,
+   "text": "can please take a look."
+  },
+  {
+   "start": 159.24,
+   "end": 161.06,
+   "text": "Please wait while I create a callback request."
+  },
+  {
+   "start": 161.06,
+   "end": 163.74,
+   "text": "I have sent your message to our clinical team."
+  },
+  {
+   "start": 164.5,
+   "end": 169.14,
+   "text": "The staff member will return your call promptly during our next available business hours"
+  },
+  {
+   "start": 169.14,
+   "end": 171.82,
+   "text": "to help arrange an urgent visit with Dr. Perryman."
+  },
+  {
+   "start": 172.16,
+   "end": 174.1,
+   "text": "Is there anything else I can help you with today?"
+  },
+  {
+   "start": 175.62,
+   "end": 176.62,
+   "text": "That's it. Thank you."
+  },
+  {
+   "start": 179.31,
+   "end": 180.25,
+   "text": "Thank you for calling."
+  },
+  {
+   "start": 181.9,
+   "end": 183.52,
+   "text": "Take care and we hope you feel better soon."
+  }
+ ]
+}

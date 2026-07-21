@@ -1,0 +1,38 @@
+Agent: Hello, this is Sara with [CLINIC] at the [LOCATION] location on a recorded line. How can I help you today?
+User: Hi, Sarah. It's This is [NAME] from doctor Henry's office. And I'm I received a referral from doctor Huzela. For a [NAME], [NAME_SPELLED], Date of birth, [DIGITS]. 
+User: But I'm really not sure what she wants her to be seen for. 
+Agent: I understand, [NAME]. You are calling from Doctor Henry’s office regarding a referral for [NAME], born [DOB]-[DIGITS], and you need clarification on the reason for the referral from Doctor Huzela.
+
+I will verify [NAME]’s information so I can document your request for our team. May I have your direct contact number in case our team needs to follow up with you?
+User: Sure. It's three o [DIGITS]. 
+Agent: Thank you, [NAME]. I have your contact number as [DIGITS] – [DIGITS] – [DIGITS].
+
+Could you please provide 
+User: Yes, 
+Agent: the name of your organization or practice for my records?
+User: Central [STATE], Oculoplastic Consultants. 
+Agent: Thank you for confirming. I have your organization as Central [STATE] Oculoplastic Consultants.
+Just to confirm, you are requesting clarification on the reason for referral for [NAME] from Doctor Huzela. Is there a specific way you would like us to contact you with this information—by phone, email, or fax?
+User: Hello? 
+Agent: I am here, [NAME]. Would you prefer to receive the 
+User: Ok. 
+Agent: follow-up about the referral reason by phone, email, or fax?
+User: Fax would be fine. 
+Agent: Thank you, [NAME]. Could you please provide the fax number where you would like us to send the information?
+User: Sure. [DIGITS]. 
+Agent: Thank you. I have the fax number as [DIGITS] – [DIGITS] – [DIGITS].
+
+When would be a good time for our team to follow up with you if they need more information?
+User: Anytime up until four thirty. 
+Agent: Understood. I will note that you are available for follow-up any time until four thirty PM.
+
+Please hold while I document your reques
+Agent: t for our 
+Agent: Medical Records Team.
+User: Thank you. 
+Agent: Your request has been documented for our Medical Records Team. They will review the referral for [NAME] and fax the clarification to [DIGITS] – [DIGITS] – [DIGITS]. If our team needs more information, they will reach out to you before four thirty PM.
+
+Is there anything else I can help you with today?
+User: No, ma'am. I don't have any demographics with that either. 
+User: Just her date of birth. 
+Agent: You are all set, [NAME]. If you need anything else, please feel free to call us. Have a great day.

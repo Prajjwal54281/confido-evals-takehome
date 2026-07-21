@@ -1,0 +1,360 @@
+{
+ "file": "call_25a7b90c6d662d008e3acf9560c_redacted.wav",
+ "short_id": "25a7b90c6d66",
+ "duration_s": 391.4,
+ "detected_language": "en",
+ "language_probability": 0.998,
+ "model": "small",
+ "segments": [
+  {
+   "start": 1.52,
+   "end": 9.99,
+   "text": "This call is being recorded for quality assurance. Thank you for calling Bridgewater. I'm Robin, a virtual assistant. What can I do to help you?"
+  },
+  {
+   "start": 13.2,
+   "end": 14.32,
+   "text": "Schedule new appointment."
+  },
+  {
+   "start": 18.75,
+   "end": 23.13,
+   "text": "Thanks for letting me know. Are you a new patient to our office or have you been seen here before?"
+  },
+  {
+   "start": 25.32,
+   "end": 25.96,
+   "text": "New patient."
+  },
+  {
+   "start": 27.28,
+   "end": 33.66,
+   "text": "Thanks. Would you like to book an annual routine eye exam or do you need a medical eye appointment that requires immediate attention?"
+  },
+  {
+   "start": 36.3,
+   "end": 37.18,
+   "text": "Immediate attention."
+  },
+  {
+   "start": 38.9,
+   "end": 42.74,
+   "text": "Thanks for letting me know. Since you need a medical eye appointment that requires immediate"
+  },
+  {
+   "start": 42.74,
+   "end": 47.04,
+   "text": "attention, I will have a staff member call you back as soon as possible to assist you directly."
+  },
+  {
+   "start": 47.54,
+   "end": 50.88,
+   "text": "Could you please provide your first and last name, spelling both out for me?"
+  },
+  {
+   "start": 61.94,
+   "end": 70.34,
+   "text": "May I please have your date of birth? June 16th, 1982. Got it. What is the best phone"
+  },
+  {
+   "start": 70.34,
+   "end": 82.12,
+   "text": "number for our staff to reach you? Thank you. Can you briefly describe your symptoms"
+  },
+  {
+   "start": 82.12,
+   "end": 83.88,
+   "text": "or the reason you need immediate attention."
+  },
+  {
+   "start": 87.07,
+   "end": 89.19,
+   "text": "I need contact replacements."
+  },
+  {
+   "start": 89.77,
+   "end": 92.93,
+   "text": "My previous optometrist at a different facility is retiring"
+  },
+  {
+   "start": 92.93,
+   "end": 94.57,
+   "text": "and I'm looking to switch businesses."
+  },
+  {
+   "start": 99.08,
+   "end": 99.74,
+   "text": "Thanks for explaining."
+  },
+  {
+   "start": 100.48,
+   "end": 102.78,
+   "text": "Contact lens prescription renewals or replacements."
+  },
+  {
+   "start": 103.06,
+   "end": 104.68,
+   "text": "You will need a routine eye exam"
+  },
+  {
+   "start": 104.68,
+   "end": 106.6,
+   "text": "rather than a medical emergency appointment."
+  },
+  {
+   "start": 107.06,
+   "end": 108.92,
+   "text": "Would you like to schedule a routine eye exam"
+  },
+  {
+   "start": 108.92,
+   "end": 110.52,
+   "text": "for contact lenses as a new patient?"
+  },
+  {
+   "start": 112.5,
+   "end": 112.96,
+   "text": "Yes."
+  },
+  {
+   "start": 115.87,
+   "end": 116.93,
+   "text": "Thanks for clarifying."
+  },
+  {
+   "start": 117.35,
+   "end": 118.91,
+   "text": "Have you worn contact lenses before"
+  },
+  {
+   "start": 118.91,
+   "end": 120.31,
+   "text": "or would this be your first time?"
+  },
+  {
+   "start": 120.31,
+   "end": 124.41,
+   "text": "I have worn contact lenses before."
+  },
+  {
+   "start": 128.21,
+   "end": 132.45,
+   "text": "Perfect. I will book you for a routine eye exam as a previous contact lens wearer."
+  },
+  {
+   "start": 132.69,
+   "end": 135.33,
+   "text": "Were you referred by another doctor or how did you hear about us?"
+  },
+  {
+   "start": 137.66,
+   "end": 138.48,
+   "text": "Another client."
+  },
+  {
+   "start": 141.44,
+   "end": 142.54,
+   "text": "Thanks for sharing that."
+  },
+  {
+   "start": 142.96,
+   "end": 146.26,
+   "text": "Do you have a preference for Dr. Joyce Reichert or Dr. Caroline Bertler"
+  },
+  {
+   "start": 146.26,
+   "end": 148.76,
+   "text": "or would you like the first available appointment?"
+  },
+  {
+   "start": 150.92,
+   "end": 151.66,
+   "text": "First available."
+  },
+  {
+   "start": 155.27,
+   "end": 158.15,
+   "text": "Finding the first available slot for a new patient contact lens exam."
+  },
+  {
+   "start": 162.29,
+   "end": 165.27,
+   "text": "The first available appointment is with Dr. Caroline Bertler"
+  },
+  {
+   "start": 165.27,
+   "end": 171.57,
+   "text": "on Wednesday May 20th at 12.30pm or with Dr. Rachel Smith on Wednesday May 20th at"
+  },
+  {
+   "start": 171.57,
+   "end": 181.62,
+   "text": "12.45pm. Which would you prefer? 12.30pm. Great. I will book your appointment with"
+  },
+  {
+   "start": 181.62,
+   "end": 186.4,
+   "text": "Dr. Caroline Bertler on Wednesday May 20th at 12.30pm. Can you please provide"
+  },
+  {
+   "start": 186.4,
+   "end": 212.06,
+   "text": "your full address? Thank you. What is the best email address for you? Thanks."
+  },
+  {
+   "start": 212.58,
+   "end": 227.25,
+   "text": "What is your primary medical insurance name and the subscriber ID? Health"
+  },
+  {
+   "start": 227.25,
+   "end": 236.76,
+   "text": "If you are unable to locate your subscriber ID, I can have a staff member call you back"
+  },
+  {
+   "start": 236.76,
+   "end": 238.26,
+   "text": "to finish scheduling your appointment."
+  },
+  {
+   "start": 238.96,
+   "end": 241.46,
+   "text": "Could you please confirm the best phone number to reach you?"
+  },
+  {
+   "start": 241.84,
+   "end": 241.92,
+   "text": "Is it?"
+  },
+  {
+   "start": 246.39,
+   "end": 246.83,
+   "text": "Yes."
+  },
+  {
+   "start": 259.24,
+   "end": 260.04,
+   "text": "Subscriber ID."
+  },
+  {
+   "start": 266.18,
+   "end": 267.38,
+   "text": "Thanks for providing that."
+  },
+  {
+   "start": 267.7,
+   "end": 269.82,
+   "text": "Do you have a vision plan such as VSP or IMED?"
+  },
+  {
+   "start": 270.18,
+   "end": 272.34,
+   "text": "If yes, please share the vision plan name and ID."
+  },
+  {
+   "start": 272.8,
+   "end": 273.74,
+   "text": "If not, just let me know."
+  },
+  {
+   "start": 275.69,
+   "end": 276.33,
+   "text": "I do not."
+  },
+  {
+   "start": 279.47,
+   "end": 280.77,
+   "text": "Thanks for letting me know."
+  },
+  {
+   "start": 281.07,
+   "end": 284.85,
+   "text": "If you have Medicare, do you also have a supplemental or secondary insurance?"
+  },
+  {
+   "start": 284.85,
+   "end": 293.54,
+   "text": "or should I continue continue here is a quick summary before I book your"
+  },
+  {
+   "start": 293.54,
+   "end": 297.84,
+   "text": "appointment I am scheduling a routine eye exam for contact lens previous"
+  },
+  {
+   "start": 297.84,
+   "end": 305.06,
+   "text": "wearer with Dr. Caroline Burtler on Wednesday May 20th at 12 30 p.m. of"
+  },
+  {
+   "start": 305.06,
+   "end": 316.68,
+   "text": "birth June 16th 1982 your address is your email your medical insurance is"
+  },
+  {
+   "start": 316.68,
+   "end": 323.35,
+   "text": "health plans Inc. vision plan you were referred by another client is all of"
+  },
+  {
+   "start": 323.35,
+   "end": 333.15,
+   "text": "correct? Correct. Please wait while I book your appointment. Your appointment is"
+  },
+  {
+   "start": 333.15,
+   "end": 337.43,
+   "text": "scheduled with Dr. Caroline Bertler on Wednesday May 20th at 12 30 p.m. If you"
+  },
+  {
+   "start": 337.43,
+   "end": 340.75,
+   "text": "need a referral from your primary care provider please be sure to get one"
+  },
+  {
+   "start": 340.75,
+   "end": 344.47,
+   "text": "before your visit. We will send you a text confirming your appointment details."
+  },
+  {
+   "start": 344.95,
+   "end": 349.75,
+   "text": "We use Optus Retinal Imaging as part of our comprehensive exam process to"
+  },
+  {
+   "start": 349.75,
+   "end": 355.35,
+   "text": "avoid the need for dilating eye drops in most cases. This costs $45 and"
+  },
+  {
+   "start": 355.35,
+   "end": 358.97,
+   "text": "insurance may not cover it but we will verify your coverage before your visit."
+  },
+  {
+   "start": 359.33,
+   "end": 367.64,
+   "text": "Would you like more information on the pricing? No. All right, do you need"
+  },
+  {
+   "start": 367.64,
+   "end": 376.64,
+   "text": "directions to our office? No. We are looking forward to seeing you on"
+  },
+  {
+   "start": 376.64,
+   "end": 380.52,
+   "text": "Wednesday May 20th at 12 30 p.m. I will send you a text with your appointment"
+  },
+  {
+   "start": 380.52,
+   "end": 388.98,
+   "text": "details. Is there anything else I can help you with today? No. Thank you for"
+  },
+  {
+   "start": 388.98,
+   "end": 390.9,
+   "text": "calling. Have a great day."
+  }
+ ]
+}

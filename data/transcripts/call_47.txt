@@ -1,0 +1,13 @@
+User: Hello? 
+User: Hello? 
+Agent: Hi, this 
+User: Hello? 
+Agent: is Sara calling from [CLINIC] [LOCATION]. May I please speak with [NAME]?
+User: Speaking. 
+Agent: Thank you, [NAME]. The reason I am calling is that we had you on the schedule for your evaluation with Collin Andrus on Monday, [DOB] at one PM, and we did not get a chance to see you. I just wanted to check in and, if it is a good time, help get you back on the calendar. Does that sound okay?
+User: Yes. 
+Agent: Wonderful. Let me 
+Agent: pull up the next available times with Collin Andrus. One moment 
+User: Please please 
+Agent: while I look up the next 
+User: I need to speak to a real person. 

@@ -1,0 +1,195 @@
+{
+ "file": "call_68384b5d912730be8c93fa0f8dc_redacted.wav",
+ "short_id": "68384b5d9127",
+ "duration_s": 138.5,
+ "detected_language": "en",
+ "language_probability": 0.952,
+ "model": "small",
+ "segments": [
+  {
+   "start": 1.01,
+   "end": 2.13,
+   "text": "Thank you for calling."
+  },
+  {
+   "start": 4.15,
+   "end": 7.73,
+   "text": "We're speaking with Sarah on a recorded line for English."
+  },
+  {
+   "start": 8.27,
+   "end": 8.69,
+   "text": "Press 1."
+  },
+  {
+   "start": 9.21,
+   "end": 9.73,
+   "text": "Para Espa\u00f1ol."
+  },
+  {
+   "start": 10.45,
+   "end": 11.07,
+   "text": "Presionados."
+  },
+  {
+   "start": 17.12,
+   "end": 19.96,
+   "text": "You are speaking with Sarah on a recorded line."
+  },
+  {
+   "start": 20.62,
+   "end": 23.0,
+   "text": "Can you please tell me who you are calling as?"
+  },
+  {
+   "start": 25.71,
+   "end": 28.23,
+   "text": "Denise Barnes, Athens, Workers' Compensation."
+  },
+  {
+   "start": 29.74,
+   "end": 30.44,
+   "text": "Thank you, Denise."
+  },
+  {
+   "start": 31.16,
+   "end": 34.84,
+   "text": "Are you calling to confirm an existing appointment for a patient?"
+  },
+  {
+   "start": 34.84,
+   "end": 38.68,
+   "text": "or is this about something else related to workers' compensation?"
+  },
+  {
+   "start": 41.06,
+   "end": 41.68,
+   "text": "Appointment."
+  },
+  {
+   "start": 43.51,
+   "end": 45.67,
+   "text": "No problem. I can help with that."
+  },
+  {
+   "start": 46.13,
+   "end": 48.65,
+   "text": "May I have the patient's first name?"
+  },
+  {
+   "start": 53.79,
+   "end": 54.25,
+   "text": "Thank you."
+  },
+  {
+   "start": 54.51,
+   "end": 55.79,
+   "text": "And the patient's last name?"
+  },
+  {
+   "start": 59.71,
+   "end": 60.51,
+   "text": "Thank you."
+  },
+  {
+   "start": 60.85,
+   "end": 63.65,
+   "text": "And what is the date of birth?"
+  },
+  {
+   "start": 65.76,
+   "end": 67.94,
+   "text": "8, 9, 1974."
+  },
+  {
+   "start": 69.86,
+   "end": 70.56,
+   "text": "Thank you."
+  },
+  {
+   "start": 70.86,
+   "end": 73.92,
+   "text": "That is August 9th, 1974."
+  },
+  {
+   "start": 74.94,
+   "end": 76.78,
+   "text": "Let me look up the information for you."
+  },
+  {
+   "start": 76.78,
+   "end": 81.6,
+   "text": "I found the patient's chart. Let me pull up the appointment details for you."
+  },
+  {
+   "start": 81.92,
+   "end": 86.52,
+   "text": "Is this for an upcoming appointment or are you looking for information about a"
+  },
+  {
+   "start": 86.52,
+   "end": 100.08,
+   "text": "past visit? Upcoming and past visit. Pulling up your upcoming appointments does not have"
+  },
+  {
+   "start": 100.08,
+   "end": 104.76,
+   "text": "any upcoming appointments scheduled at the Oakland location. For past visits,"
+  },
+  {
+   "start": 104.76,
+   "end": 106.6,
+   "text": "Let's hear are the three most recent."
+  },
+  {
+   "start": 107.34,
+   "end": 111.16,
+   "text": "March 19th, 2026 with Edith Maraz,"
+  },
+  {
+   "start": 111.78,
+   "end": 115.56,
+   "text": "February 19th, 2026 with Edith Maraz,"
+  },
+  {
+   "start": 115.94,
+   "end": 120.14,
+   "text": "January 29th, 2026 with Edith Maraz,"
+  },
+  {
+   "start": 120.62,
+   "end": 121.94,
+   "text": "DailyMate status recheck."
+  },
+  {
+   "start": 122.34,
+   "end": 124.46,
+   "text": "Would you like the full list of pass appointments"
+  },
+  {
+   "start": 124.46,
+   "end": 126.28,
+   "text": "or is there a specific date"
+  },
+  {
+   "start": 126.28,
+   "end": 128.08,
+   "text": "or provider you are looking for?"
+  },
+  {
+   "start": 129.84,
+   "end": 132.12,
+   "text": "No, no thank you, thank you."
+  },
+  {
+   "start": 132.12,
+   "end": 135.13,
+   "text": "Thank you for calling."
+  },
+  {
+   "start": 137.46,
+   "end": 138.3,
+   "text": "Have a great day."
+  }
+ ]
+}

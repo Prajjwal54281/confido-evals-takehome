@@ -1,0 +1,3 @@
+Agent: Hello, this is Lucy calling from the billing department of Dr. Wayne Barber's office on a recorded line. Am I speaking with [NAME]?
+User: Yes. 
+Agent: For security, can you please confirm your date of birth?

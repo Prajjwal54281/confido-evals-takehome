@@ -1,0 +1,5 @@
+Agent: Hello, this is Sara with [CLINIC] at the [LOCATION] location on a recorded line. How can I help you today?
+User: Hi. I'm My dorzolamide hydroc something like that, is due to be renewed And I wanna know if if I'm supposed to be still using these drops until the prescription's over or just until this current one was over? 
+Agent: I understand you have a question about your dorzolamide prescription and whether you should continue using the drops until your current supply runs out or stop now. For questions about how to use your medication or when to stop, it is best to speak directly with your clinical care team.
+
+Let me connect you with our team who can assist you directly. Please hold for a moment.

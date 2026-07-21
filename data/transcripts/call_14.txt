@@ -1,0 +1,34 @@
+Agent: Hello, 
+User: I I have the 
+Agent: this is Sara with 
+User: control to do, and I've gotta do it here over there. 
+Agent: I want to make sure I understand your request. Are you calling about a prescription refill, an eye prescription for glasses or contacts, or a medical records request? Please tell me more about what you 
+User: Prescription rape. 
+Agent: need help with today.
+User: A prescription refill. 
+Agent: I am here to help with your prescription refill request. Are you the patient, or are you calling on behalf of [NAME]?
+User: On behalf of [NAME]. 
+Agent: Thank you for letting me know. Please tell me the patient's first name.
+User: [NAME]? 
+Agent: Thank you. What is [NAME]’s last name?
+User: [NAME] [NAME_SPELLED], 
+Agent: Thank you for spelling that. What is [NAME]’s date of birth? Please say the full date, including month, day, and year.
+User: [DOB]. 
+Agent: Thank you. What is your name, and what is your relationship to [NAME]?
+User: [NAME], I'm a pharmacist. 
+Agent: Thank you, [NAME]. What is the name and address of your pharmacy?
+User: Sam's Club Pharmacy. [DIGITS] Wilkes Barre Township Boulevard, Wilkes Barre, [STATE]. 
+Agent: Thank you. What is the best phone number to reach you at the pharmacy?
+User: [DIGITS]. 
+Agent: Thank you. Which medication are you requesting a refill for, including the strength and how often [NAME] takes it?
+User: Rock Lanton eye drops. It's one and one drop in each eye once a day. 
+Agent: Thank you. Can you confirm the strength of the Rocklatan eye drops, or should I note that as not provided?
+User: Not provided. 
+Agent: Understood. Is this a new refill request, or are you following up on a previous request for this medication?
+User: Following up. 
+Agent: Thank you. Is this [NAME], or can it be processed as standard priority?
+User: Standard priority. 
+Agent: I am verifying the patient information 
+Agent: now.
+User: Don't worry about that, [NAME]. 
+Agent: Please wait while I create a request for our Please wait while I create a request for our teamI have created a task for our team to review your request. They will follow up with you at the pharmacy number you provided. Is there anything else I can help you with today?

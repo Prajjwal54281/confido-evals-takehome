@@ -1,0 +1,56 @@
+Agent: Hello, this is Sara with the Financial Services team on a recorded line. How can I help you today? 
+User: Yeah. I got a message from one of your people, Lucy, I think. I just called back. 
+Agent: Thank 
+User: Hello? 
+Agent: you for letting me know. For security, I will need to confirm the patient's information before we discuss any account details. What is the first name of the person whose account you are calling about?
+User: Yeah. Go ahead. [NAME], [NAME_SPELLED]. 
+Agent: Thank you. And what is their last name? Could you please spell it for me to ensure I have it correct?
+User: L like clarity. O like okay, h like happy, 
+Agent: Thank you for spelling that. And what is their date of birth?
+User: [DOB]. 
+Agent: I am verifying your information.
+Agent: I have located the account for [NAME], born [DOB], [DIGITS]. You have a current outstanding balance of [DIGITS] dollars and seventy-seven cents.
+
+Would you like to take care of this balance today, or do you have a specific question about it?
+User: I can pay on how much you get? 
+User: Hundred something out. You accept the credit card. Why don't you just send me a bill before? 
+Agent: We do accept credit card payments. I understand you have questions about your bill. Would you like me to review the details of your latest statement with you before we proceed with payment?
+User: It's okay. I can pay. I can review, but I don't need the itemized deal of that pay. So if I have problem, I can always come in back. So, can you mail me itemized the receipt of Thai pay? 
+Agent: I understand you would like to make a payment now and receive an itemized receipt by mail. I can help you with the 
+User: Yeah. 
+Agent: payment, and then connect you with our Financial Services team to arrange for the itemized receipt to be sent to you.
+
+Let us start with your payment. Please say your full card number.
+User: So I have do I have to talk to another people, or you can just add on to mail to me or email to me? 
+Agent: I can help you process your payment right now. To have an itemized receipt mailed or emailed to you, our Financial Services team will need to assist 
+User: Yes. 
+Agent: with that part. After we complete your payment, I will connect you with a specialist who can arrange for your itemized receipt.
+
+Please say your full card number when you are ready.
+User: Yeah. [DIGITS] 
+User: [DIGITS] 
+User: [DIGITS] 
+User: [DIGITS]. 
+Agent: Got it. Just to be sure, the card number ends in [DIGITS], correct?
+User: Yeah. The last four. 
+Agent: Thank you. What is the expiration date on the card?
+User: [DIGITS]. 
+User: [DOB]. 
+Agent: Got it. What is the CVV number on your card?
+User: [DIGITS] 
+User: You said two hundred something? 
+Agent: Yes, 
+User: How much is it? 
+Agent: your current outstanding 
+Agent: Your current outstanding balance is [DIGITS] dollars and seventy-seven 
+User: Okay. Yeah. Go 
+Agent: cents. What amount would you like 
+User: ahead. 
+Agent: Understood. What is the billing ZIP code for the card?
+User: [DIGITS]. 
+Agent: Thank you. Is the card in the name of [NAME]?
+User: Yeah. 
+Agent: Please wait while I process your payment.
+User: Okay. 
+Agent: Just a moment. 
+Agent: I'm making sure this text goes through for you.

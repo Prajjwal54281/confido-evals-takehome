@@ -1,0 +1,115 @@
+{
+ "file": "call_90cd69877396d73edb22a1ebc12_redacted.wav",
+ "short_id": "90cd69877396",
+ "duration_s": 123.2,
+ "detected_language": "en",
+ "language_probability": 0.997,
+ "model": "small",
+ "segments": [
+  {
+   "start": 2.29,
+   "end": 5.43,
+   "text": "If this is a medical emergency, please hang up and dial 911."
+  },
+  {
+   "start": 5.99,
+   "end": 7.01,
+   "text": "You are speaking with me."
+  },
+  {
+   "start": 7.25,
+   "end": 7.85,
+   "text": "How can I help you?"
+  },
+  {
+   "start": 13.72,
+   "end": 16.84,
+   "text": "I need to speak to a live person."
+  },
+  {
+   "start": 18.21,
+   "end": 19.35,
+   "text": "I can often help right away."
+  },
+  {
+   "start": 19.87,
+   "end": 21.29,
+   "text": "Is this about an appointment, medications,"
+  },
+  {
+   "start": 21.61,
+   "end": 22.25,
+   "text": "or something else?"
+  },
+  {
+   "start": 24.45,
+   "end": 24.93,
+   "text": "Medication."
+  },
+  {
+   "start": 26.23,
+   "end": 28.75,
+   "text": "I can help with many medication requests right away."
+  },
+  {
+   "start": 29.21,
+   "end": 30.67,
+   "text": "Are you looking for a prescription refill,"
+  },
+  {
+   "start": 30.95,
+   "end": 31.95,
+   "text": "a change to your medication,"
+  },
+  {
+   "start": 32.19,
+   "end": 33.97,
+   "text": "or something else related to your medication?"
+  },
+  {
+   "start": 36.56,
+   "end": 37.4,
+   "text": "Prescription refill."
+  },
+  {
+   "start": 38.93,
+   "end": 40.65,
+   "text": "To help with your prescription refill,"
+  },
+  {
+   "start": 40.65,
+   "end": 54.43,
+   "text": "what is your first name and what is your date of birth? 124 1969. Please wait"
+  },
+  {
+   "start": 54.43,
+   "end": 58.19,
+   "text": "while I find your record. I have found your record. What is the name and dosage"
+  },
+  {
+   "start": 58.19,
+   "end": 66.27,
+   "text": "of the medication you need a refill for? Amberle. Could you please tell me the"
+  },
+  {
+   "start": 66.27,
+   "end": 74.83,
+   "text": "name and dosage of the medication you would like to refill? I did not catch"
+  },
+  {
+   "start": 74.83,
+   "end": 78.25,
+   "text": "that. Could you please repeat the name and dosage of the medication you need"
+  },
+  {
+   "start": 78.25,
+   "end": 86.83,
+   "text": "a refill. I will connect you with our staff so they can assist you directly with your"
+  },
+  {
+   "start": 86.83,
+   "end": 123.1,
+   "text": "medication request. It looks like I was not able to connect you to a staff member just"
+  }
+ ]
+}

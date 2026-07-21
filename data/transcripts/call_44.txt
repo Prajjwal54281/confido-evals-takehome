@@ -1,0 +1,5 @@
+User: Child. Can't take your call now. 
+User: At the 
+Agent: Hello, this 
+User: tone, please record your message. When you've finished recording, simply hang up, or press pound for further options. 
+Agent: Hello, this is a message for [NAME] from [CLINIC] Lynnwood. This is a reminder of an upcoming appointment. Please call us back on this number to confirm. Thank you.

@@ -1,0 +1,195 @@
+{
+ "file": "call_6009c3b5fb87f0b62bb78a22a66_redacted.wav",
+ "short_id": "6009c3b5fb87",
+ "duration_s": 131.4,
+ "detected_language": "en",
+ "language_probability": 0.946,
+ "model": "small",
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 0.96,
+   "text": "Thank you for calling."
+  },
+  {
+   "start": 3.39,
+   "end": 8.51,
+   "text": "This is a medical emergency, please hang up and dial 911 or head to the nearest ER."
+  },
+  {
+   "start": 9.33,
+   "end": 11.03,
+   "text": "Para espa\u00f1ol, respond en espa\u00f1ol."
+  },
+  {
+   "start": 11.57,
+   "end": 16.85,
+   "text": "This is Sarah. I can help you with scheduling, medical records, billing, prescription refills,"
+  },
+  {
+   "start": 17.25,
+   "end": 20.35,
+   "text": "prior aughts, and other clinical questions. How can I help you?"
+  },
+  {
+   "start": 22.57,
+   "end": 23.85,
+   "text": "I'd like to schedule an appointment."
+  },
+  {
+   "start": 26.93,
+   "end": 28.17,
+   "text": "Could I get your first name?"
+  },
+  {
+   "start": 30.27,
+   "end": 30.45,
+   "text": "Yes."
+  },
+  {
+   "start": 34.59,
+   "end": 35.57,
+   "text": "And your last name?"
+  },
+  {
+   "start": 40.5,
+   "end": 40.98,
+   "text": "Got it."
+  },
+  {
+   "start": 40.98,
+   "end": 43.92,
+   "text": "Could you spell your last name for me just to be sure?"
+  },
+  {
+   "start": 45.62,
+   "end": 45.84,
+   "text": "Yeah."
+  },
+  {
+   "start": 49.1,
+   "end": 50.16,
+   "text": "And your date of birth?"
+  },
+  {
+   "start": 52.61,
+   "end": 53.77,
+   "text": "July 16th, 2004."
+  },
+  {
+   "start": 55.78,
+   "end": 59.08,
+   "text": "So that's July 16th, 2004, correct?"
+  },
+  {
+   "start": 60.76,
+   "end": 61.46,
+   "text": "Yeah, that's correct."
+  },
+  {
+   "start": 63.79,
+   "end": 66.61,
+   "text": "One moment while I look up your record by date of birth."
+  },
+  {
+   "start": 73.92,
+   "end": 75.04,
+   "text": "Let me check your appointments."
+  },
+  {
+   "start": 78.05,
+   "end": 78.31,
+   "text": "Hi."
+  },
+  {
+   "start": 79.12,
+   "end": 80.58,
+   "text": "See you in our system."
+  },
+  {
+   "start": 81.0,
+   "end": 85.84,
+   "text": "Are you looking to book a new appointment, reschedule, cancel or confirm an existing"
+  },
+  {
+   "start": 85.84,
+   "end": 86.02,
+   "text": "one?"
+  },
+  {
+   "start": 86.1,
+   "end": 86.36,
+   "text": "Yeah, a new appointment."
+  },
+  {
+   "start": 86.36,
+   "end": 88.73,
+   "text": "a new appointment."
+  },
+  {
+   "start": 90.72,
+   "end": 92.08,
+   "text": "Before I get you scheduled,"
+  },
+  {
+   "start": 92.4,
+   "end": 94.86,
+   "text": "I see your insurance carrier is Aetna."
+  },
+  {
+   "start": 95.1,
+   "end": 96.08,
+   "text": "Is that still correct?"
+  },
+  {
+   "start": 97.92,
+   "end": 98.16,
+   "text": "Yes."
+  },
+  {
+   "start": 99.82,
+   "end": 105.4,
+   "text": "And your member ID is, that's still correct?"
+  },
+  {
+   "start": 107.07,
+   "end": 107.53,
+   "text": "That's correct."
+  },
+  {
+   "start": 109.46,
+   "end": 112.66,
+   "text": "I see you were previously seen by Dr. Wadwekar"
+  },
+  {
+   "start": 112.66,
+   "end": 114.02,
+   "text": "at our Gilbert office."
+  },
+  {
+   "start": 114.64,
+   "end": 115.78,
+   "text": "Does Gilbert still work"
+  },
+  {
+   "start": 115.78,
+   "end": 117.26,
+   "text": "or would you like a different office?"
+  },
+  {
+   "start": 121.06,
+   "end": 123.26,
+   "text": "What kind of appointment are you looking for?"
+  },
+  {
+   "start": 123.78,
+   "end": 126.3,
+   "text": "A regular follow-up, a diabetes check-in"
+  },
+  {
+   "start": 126.3,
+   "end": 129.2,
+   "text": "or something specific like a thyroid biopsy."
+  }
+ ]
+}

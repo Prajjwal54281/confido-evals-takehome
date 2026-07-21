@@ -1,0 +1,6 @@
+User: Hello? 
+Agent: Hello, this is Sara calling from [CLINIC] [LOCATION] on a recorded line. May I speak with [NAME]?
+User: This is she. 
+Agent: Thank you, [NAME]. I’m calling to remind you of your appointment on Wednesday, [DOB] at seven forty AM with Brandon George at our [CLINIC] [LOCATION] location. Are you still able to attend this appointment?
+User: Yes. 
+Agent: Perfect, your appointment has been confirmed. We ask that you arrive 15 minutes early. Please bring your picture ID and insurance card. If your physician provided you a copy of 

@@ -1,0 +1,36 @@
+Agent: Hello, this is Sara with [CLINIC] at the [LOCATION] location on a recorded line. How can I help you today?
+User: Hi. My name is [NAME]. I'm calling from a doctor's office. I was calling to request the recent eye exam report for our mutual patients. 
+Agent: I am happy to help you with that. Are you the provider yourself, or are you calling on behalf of [NAME]?
+User: Calling on behalf of [NAME]. 
+Agent: Thank you for letting me know. May I have your full name and your contact number, please?
+User: [NAME], [DIGITS]. 
+Agent: Thank you, [NAME]. May I have the full name of the provider you are calling on behalf of?
+User: Kashnamunchay. 
+Agent: Thank you. Could you please provide the provider’s organization or practice name?
+User: Penn Medicine. 
+Agent: Thank you. May I have the provider’s contact number?
+User: [DIGITS]. 
+Agent: Thank you. If you have an email address for the provider, could you please provide that as well? If not, just let me know.
+User: I don't have it. 
+Agent: No problem. Now, I will need the patient’s information to locate the correct record. May I have the patient’s first name?
+User: [NAME]. 
+Agent: Thank you. And the patient’s last name?
+User: [NAME]. 
+Agent: Thank you. What is [NAME]’s date of birth?
+User: [DIGITS]. 
+Agent: I am verifying the patient information now.
+Agent: [NAME], I am still here. I just need a few more details to complete your request. Could you please tell me the dates of the records you are requesting for [NAME]?
+User: I don't know. 
+Agent: That is alright. I will note that the date range is not provided. What type of records are you requesting—just the most recent eye exam report, or do you need additional records?
+User: Most recent eye exam report. 
+Agent: Thank you. How would you like to receive the records—by fax or by email? If fax, please provide the fax number. If email, please provide the email address.
+User: Fax. [DIGITS]. 
+Agent: Thank you. How soon do you need these records? If you need them within twenty-four hours, I will mark this as urgent. If not, I will mark it as standard priority.
+User: Standard priority. 
+Agent: Understood. When would be a good time for our team to call you back if they need more information?
+User: [DIGITS], anytime. 
+Agent: Thank you. I have all the information I need. I will create a task for our Medical Records Team to process your request for [NAME]’s most recent eye exam report. You will receive the records by fax at [DIGITS] – [DIGITS] – [DIGITS].
+
+Is there anything else I can assist you with today?
+User: No. 
+Agent: Please wait while I create a request for our teamYour request has been submitted to our Medical Records Team. If you need anything else in the future, please feel free to call us. Have a great day.

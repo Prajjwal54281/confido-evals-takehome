@@ -1,0 +1,35 @@
+Agent: Hello, this is Sara with [CLINIC] at the [LOCATION] location on a recorded line. How can I help you today?
+User: Yes. I'll calling to find out if I could get a copy of my her record for because I'm falling for disability on his behalf. 
+User: I need to get a copy of his diagnosis. 
+Agent: I understand you are requesting a copy of your son's medical records for a disability filing. I will help with that. Are you the parent or legal guardian of the patient?
+User: I am the patient's spouse. 
+Agent: Thank you for letting me know. May I have your spouse’s first and last name so I can locate his record?
+User: First name, [NAME]. Last name, [NAME]. 
+Agent: Thank you. What is [NAME]’s date of birth?
+User: [DOB]. 
+Agent: Thank you. May I have the best phone number on file for [NAME]?
+User: [DIGITS]. 
+Agent: I am verifying your information.
+Agent: I am still here to help you with your request for [NAME]’s medical records. Would you like to continue with the process to request his diagnosis for your disability filing?
+User: Yes. 
+Agent: Thank you.For your request, I will need to confirm a few more details. What is your full name?
+User: Okay. [NAME], [NAME_SPELLED] [NAME], [NAME_SPELLED]. 
+Agent: Thank you, [NAME]. What is the best phone number for us to contact you if our team needs more information?
+User: [DIGITS]. 
+Agent: Thank you. What is the date range or specific dates of the records you need, or do you need the most recent diagnosis?
+User: The last two weeks. 
+User: Or the last diagnosis would be fine. 
+Agent: Understood. For delivery, do you prefer to receive the records by email or fax? If email, please confirm the address. If fax, please provide the fax number.
+User: Email. [EMAIL]. 
+Agent: Thank you. To confirm, [EMAIL]. Is that correct?
+User: Correct. 
+Agent: How soon do you need these records? If you need them within twenty-four hours, I will mark this as urgent. Otherwise, I will process it as standard.
+User: By Friday. 
+Agent: Thank you. 
+User: [DOB]. 
+Agent: I will process this as a standard request. When would be a good time for our team to call you back if they need more information?
+User: You can call me tomorrow morning. 
+Agent: Please 
+Agent: wait while I create a request for our teamI have created a request for [NAME]’s diagnosis to be sent to your email address. Our Medical Records Team will review your request and contact you tomorrow morning if they need more information. Is there anything else I can help you with today?
+User: No. That will be all. 
+Agent: Take care. If you need anything else in the future, please call us again. Goodbye.

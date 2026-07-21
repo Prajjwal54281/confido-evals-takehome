@@ -1,0 +1,19 @@
+Agent: Hello, this is Sara calling from [CLINIC] [LOCATION]. May I 
+User: (inaudible speech)
+Agent: speak with [NAME]?
+User: Yeah. This is [NAME]. 
+Agent: Thank you, [NAME]. I’m calling to remind you of your appointment on Tuesday, [DOB] at five PM with Dr. Shivani Paralkar at our [LOCATION] location. Are you still able to attend this appointment?
+User: Yes. That's the label. 
+Agent: Perfect, your appointment has been confirmed. We ask that you arrive 15 minutes early. Please bring your picture ID and insurance card. If your physician provided you a copy of your referral for therapy, please bring that as well. You should plan on being here for one hour and wear comfortable clothing and gym shoes.
+
+Do you need the address to our clinic?
+User: No. I I do have the address. 
+Agent: Thank you for confirming. Do you have any questions about your appointment?
+User: I just have a quick question. Just in case, I'm gonna have to bring my child would there be a space for them to wait for me while I'm doing like, the one hour or doing the the therapy? 
+User: for the session? 
+Agent: Let me transfer you to our front desk so they can assist you with your question about bringing your child to the session. Please hold for just a moment.
+User: (inaudible speech)
+Agent: I apologize, it looks like I’m having trouble transferring your call right now. I recommend calling our front desk directly for the most accurate information about bringing your child. Is there anything else I can help you with today?
+User: No. That was all. Thank you. 
+User: you. 
+Agent: Thank you, [NAME]. Have a great day. We look forward to seeing you at your appointment.

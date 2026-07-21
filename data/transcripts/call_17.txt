@@ -1,0 +1,33 @@
+Agent: Hello, this is Sara with [CLINIC] at the [LOCATION] location on a recorded line. How can I help you today?
+Agent: Are you still there? If you need more time, just let me know when you are ready to continue.
+User: Gilbert's office. 
+Agent: Thank you for 
+User: Excuse me? 
+Agent: calling from Gilbert's office. Are you calling regarding a prescription refill request, a medical records request, or something else?
+User: I need a refill. Of my prescriptions. 
+Agent: I understand you need a prescription refill. Are you the patient, or are you calling on behalf of [NAME]?
+User: I need I need another of my local animals. 
+User: I think that's what it is. Yeah. 
+User: I don't drop it in the ice. In the evening. 
+User: That's what it is. Right? Lotenta a quote? Are you there? 
+Agent: Yes, I am here to help you. Just to clarify, are you requesting a refill for a medication called Lotemax? If that is not correct, can you please tell me the exact name of the medication you need refilled?
+User: I'm sorry you were talking too loud. I didn't understand. 
+User: And I'm on the I am on the sometimes to understand. But I know that I am out of my work canister. 
+User: And that's that's where we speak this the sauce at night. And I've done it for years. 
+Agent: Thank you for sharing that. I want to make sure I help you correctly. To process your refill request, I need to confirm a few details. Are you the patient, or are you calling on behalf of [NAME]?
+User: Triangle drugs. And is LA [NAME_SPELLED] zero point [DIGITS] percent. In eye drops. 
+User: It says, you're trying to get. I think I saw doctor Delbridge in February. 
+User: Of March 
+Agent: Thank you for the 
+User: or something like that. 
+Agent: Thank you for clarifying. To help with your prescription refill for Latanoprost zero point [DIGITS] percent eye drops, I need to confirm your information. Are you the patient, or are you calling on behalf of [NAME]?
+User: I wish I could understand you. I'm sorry. I can't. 
+User: Talk to the pharmacist. At Triangle Drug, I guess. Maybe he'll tell me. What to do. 
+Agent: I 
+User: Thank you. 
+Agent: understand this is frustrating. If you would like, I can connect you with our team who can speak with [NAME] and help with your prescription refill. Would you like me to transfer your call now?
+User: Yes, please. 
+User: The 
+Agent: I will 
+User: triangle front. 
+Agent: connect you with our team now so they can assist you directly with your prescription refill.

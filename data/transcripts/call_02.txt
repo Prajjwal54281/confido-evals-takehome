@@ -1,0 +1,36 @@
+Agent: Hello, this is Sara with [CLINIC] at the [LOCATION] location on a recorded line. How can I help you today?
+User: Hi. My name is [NAME]. I'm a nurse with PAC Pediatrics. The office of doctor Kathleen Walsh, calling about a mutual patient. Looking to get records. Patient saw doctor Voice in January, and doctor Flickinger in March. 
+User: We're looking to get the office notes from those two visits. 
+Agent: I can help with that. To make sure I send the 
+User: Thank 
+Agent: records for the correct patient, may I have the patient’s first and last name, and their date of birth?
+User: [NAME] Last name [NAME], [NAME_SPELLED]. Date of birth, [DOB]. [DIGITS]. 
+Agent: Thank you, [NAME]. To confirm, the patient’s name is [NAME], and the date of birth is [DOB]-[DIGITS]. Is that correct?
+User: That is correct. 
+Agent: Thank you for confirming. May I have your callback phone number in case our team needs to reach you about this records request?
+User: [DIGITS]. 
+Agent: Thank you. I have your callback number as [DIGITS] – [DIGITS] – [DIGITS]. Now, may I have your email address, if available, for sending the records or follow-up?
+User: Can you fax them? 
+Agent: Yes, we can fax the records. Could you please provide the fax number where you would like the records sent?
+User: [DIGITS]. 
+Agent: Thank you. I have the fax number as [DIGITS] – [DIGITS] – [DIGITS]. 
+
+Could you please confirm the full name of the requesting provider for this records request?
+User: Kathleen Walsh. 
+Agent: Thank you. I have the requesting provider as Kathleen Walsh. Could you also provide the name of your organization or practice?
+User: PAC pediatrics. 
+Agent: Thank you. I have your organization as PAC Pediatrics. 
+
+For documentation, could you confirm your email address, or would you prefer not to provide one?
+User: No email address. 
+Agent: Understood. For the records request, could you confirm the date range you need? You mentioned visits in January and March—would you like records only from those two visits, or a broader date range?
+User: Just those two visits. 
+Agent: Thank you for clarifying. When do you need these records by? If you need them within twenty-four hours, I will mark this as urgent. Otherwise, I will process it as standard priority.
+User: Within twenty four hours. 
+Agent: I understand. I will mark this request as urgent. When would be a good time for our team to call you back if they need more information?
+User: Anytime today up until four PM. 
+Agent: I am verifying the patient information for this records request.
+Agent: [NAME], I am still here and working on your request. I will create a task for our Medical Records Team to urgently fax the January and March visit notes for [NAME] to PAC Pediatrics. Is there anything else you need while I finish this process?
+User: No. Thank you. 
+Agent: Please wait while I create 
+Agent: a request for our team.Your urgent records request has been submitted to our Medical Records Team. They will fax the January and March visit notes for [NAME] to PAC Pediatrics at the number you provided. If our team needs anything further, they will call you today before four PM. Have a good day.

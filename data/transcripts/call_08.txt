@@ -1,0 +1,5 @@
+Agent: Hello, this is Sara with [CLINIC] at the [LOCATION] location on a recorded line. How can I help you today?
+User: Need records for a mutual patient? 
+Agent: I am happy to help you with that. Are you calling from a provider’s office, or are you the patient?
+User: Provider's office. 
+Agent: Thank you for letting me know. I will transfer you to our front desk team who can assist you with your medical records request. Please hold one moment.

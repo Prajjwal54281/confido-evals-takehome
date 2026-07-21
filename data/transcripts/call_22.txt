@@ -1,0 +1,34 @@
+Agent: Hello, this is Sara with the Financial Services team on a recorded line. How can I help you today? 
+User: Pay a bill. 
+Agent: I can help you with that. For security, I will need to confirm the patient's information. What is the first name of the person whose account you are calling about?
+User: [NAME]. 
+Agent: Thank you. And what is their last name?
+User: [NAME]. 
+Agent: Thank you. And what is [NAME]'s date of birth?
+User: O [DIGITS]. 
+Agent: Just to confirm, is [NAME]'s [DOB] 10th, 1977?
+User: No. 
+Agent: Thank you for clarifying. Could you please state [NAME]'s [DOB], using the full month, day, and year?
+User: [DOB]. 
+Agent: I am verifying your information.[NAME] currently has an outstanding balance of fifty-three dollars. Would you like to take care of this balance now, or do you have a specific question about it?
+User: Take care of it now. 
+Agent: Just to confirm, you would like to pay the full amount of fifty-three dollars. Is that correct?
+User: Yes. 
+Agent: Please say your full card number.
+User: [DIGITS]. 
+Agent: Got it. Just to be sure, the card number ends in [DIGITS], correct?
+User: Yes. 
+Agent: What is the expiration date on the card?
+User: [DIGITS]
+Agent: Got it. What is the CVV number on your card?
+User: [DIGITS]. 
+Agent: Understood. What is the billing ZIP code for the card?
+User: [DIGITS]. 
+Agent: Is the card in the name of [NAME]?
+User: Yes. 
+Agent: Please wait while I process your payment.Just a moment. 
+Agent: I'm making sure this text goes through for you.We have processed your payment for fifty-three dollars and will send you a confirmation via text. Is there anything else I can help you with today?
+User: Could you email that receipt? 
+Agent: I can connect you with an expert in our team who can help get that sent out to you right away. For your security, the next agent will need to confirm your details. There might be a few minutes of wait time to connect to an 
+User: Are we 
+Agent: expert.

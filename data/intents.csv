@@ -1,0 +1,51 @@
+call_id,direction,intent,reached_human,notes
+01,inbound,records_request,1,provider office wants provider name corrected on record
+02,inbound,records_request,1,nurse at other practice wants 2 visit notes faxed
+03,inbound,records_request,1,asks why a referral was sent; routed to records
+04,inbound,records_request,1,provider office wants recent eye report faxed
+05,inbound,records_request,1,provider office wants recent eye exam report faxed
+06,inbound,records_request,1,spouse requesting records for disability filing
+07,inbound,records_request,1,provider office urgent records request
+08,inbound,records_request,1,same intent as 02/04/05/07 but transferred after 2 questions
+09,inbound,rx_problem,1,eye drops never reached pharmacy
+10,inbound,eyewear_rx_request,1,lost glasses prescription wants copy
+11,inbound,rx_problem,1,wife's rx stuck at pharmacy; broken callback promise
+12,inbound,eyewear_rx_request,1,wants to order contact lenses
+13,inbound,rx_refill,1,wants eye drops instead of laser surgery
+14,inbound,rx_refill,1,pharmacist following up on Rocklatan refill
+15,inbound,rx_problem,1,caregiver questioning Travoprost vs Bimatoprost
+16,inbound,eyewear_rx_request,1,glasses prescription for wife; multilingual
+17,inbound,rx_refill,1,elderly caller hard of hearing; latanoprost refill
+18,inbound,clinical_question,1,should I keep using dorzolamide; transferred correctly
+19,inbound,billing_payment,1,paid 16.31
+20,inbound,billing_payment,1,paid 400.00
+21,inbound,billing_payment,1,paid 35.00
+22,inbound,billing_payment,1,paid 53.00 then transferred for email receipt
+23,inbound,billing_payment,1,payment in progress at cutoff; wants itemised receipt
+24,inbound,billing_insurance_dispute,1,secondary insurance not billed; transferred
+25,inbound,misdial,1,caller hit wrong prompt
+26,outbound,billing_collections,1,cannot pay until the 13th; callback scheduled
+27,outbound,billing_collections,1,callback direction inverted by agent
+28,outbound,billing_collections,1,callee refuses to give DOB on an inbound-to-them call
+29,outbound,voicemail_drop,0,billing message left on voicemail
+30,outbound,voicemail_drop,0,billing message left on voicemail
+31,outbound,billing_collections,1,live pickup; transcript cuts at DOB request
+32,outbound,voicemail_drop,0,talks over IVR; restarts own greeting
+33,outbound,appt_reminder,1,confirmed
+34,outbound,appt_reminder,1,confirmed; recording cuts mid-script
+35,outbound,appt_reminder,1,confirmed; caller says "This is AI"
+36,outbound,appt_reminder,1,third party answers and holds; cuts before confirm
+37,outbound,appt_reminder,1,confirmed
+38,outbound,appt_reminder,1,confirmed
+39,outbound,appt_reminder,1,agent states wrong day; patient catches it
+40,outbound,appt_reminder,1,confirmed then transfer FAILS on a childcare question
+41,outbound,voicemail_drop,0,reminder message left on voicemail
+42,outbound,voicemail_drop,0,reminder message left on voicemail
+43,outbound,voicemail_drop,0,reminder; agent speaks over the outgoing greeting
+44,outbound,voicemail_drop,0,reminder message left on voicemail
+45,outbound,appt_reminder,1,cancelled; found another provider; agent denies being AI
+46,outbound,appt_reminder,1,cancelled; ill with COVID; canned 911 line; no rebook offered
+47,outbound,noshow_recovery,1,agrees to rebook then asks for a real person during lookup
+48,outbound,appt_reminder,1,asks if agent is AI; ends asking to reschedule
+49,outbound,voicemail_drop,0,missed-appointment message left on voicemail
+50,outbound,voicemail_drop,0,reminder left on Spanish-language voicemail in English

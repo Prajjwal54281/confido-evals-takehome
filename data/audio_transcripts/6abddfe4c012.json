@@ -1,0 +1,165 @@
+{
+ "file": "call_6abddfe4c01235ad9c153f8522c_redacted.wav",
+ "short_id": "6abddfe4c012",
+ "duration_s": 210.9,
+ "detected_language": "en",
+ "language_probability": 0.977,
+ "model": "small",
+ "segments": [
+  {
+   "start": 0.11,
+   "end": 9.84,
+   "text": "Thank you for calling. If this is a medical emergency, please hang up and dial 9-1-1 or head to the nearest ER"
+  },
+  {
+   "start": 10.5,
+   "end": 13.7,
+   "text": "Bar espanol respond in Espanol. This is Sarah"
+  },
+  {
+   "start": 13.7,
+   "end": 20.8,
+   "text": "I can help you with scheduling medical records billing and prescription refills. How can I help you?"
+  },
+  {
+   "start": 23.44,
+   "end": 31.91,
+   "text": "Eduling could I get your first name and your last name?"
+  },
+  {
+   "start": 36.53,
+   "end": 49.52,
+   "text": "Got it. Could you spell that for me just to be sure and your date of birth?"
+  },
+  {
+   "start": 54.7,
+   "end": 59.08,
+   "text": "So that's November 13th, 1985, correct?"
+  },
+  {
+   "start": 63.4,
+   "end": 65.98,
+   "text": "One moment while I look up your record by date of birth."
+  },
+  {
+   "start": 69.01,
+   "end": 70.05,
+   "text": "Let me check your appointments."
+  },
+  {
+   "start": 75.28,
+   "end": 76.7,
+   "text": "See you in our system."
+  },
+  {
+   "start": 77.04,
+   "end": 81.8,
+   "text": "Are you looking to book a new appointment, reschedule, cancel, or confirm an existing"
+  },
+  {
+   "start": 81.8,
+   "end": 82.1,
+   "text": "one?"
+  },
+  {
+   "start": 86.35,
+   "end": 87.31,
+   "text": "Book an appointment."
+  },
+  {
+   "start": 88.8,
+   "end": 92.98,
+   "text": "Before I get you scheduled, I'll need your insurance carrier and member ID."
+  },
+  {
+   "start": 93.32,
+   "end": 94.26,
+   "text": "Could you grab your card?"
+  },
+  {
+   "start": 94.26,
+   "end": 105.7,
+   "text": "Great. What is your insurance carrier?"
+  },
+  {
+   "start": 109.04,
+   "end": 109.64,
+   "text": "Big Nuh."
+  },
+  {
+   "start": 111.0,
+   "end": 112.44,
+   "text": "And what is your member ID?"
+  },
+  {
+   "start": 132.12,
+   "end": 133.98,
+   "text": "Updating your insurance on file?"
+  },
+  {
+   "start": 134.34,
+   "end": 137.36,
+   "text": "One moment. Got it. I've updated that on your record."
+  },
+  {
+   "start": 137.78,
+   "end": 141.34,
+   "text": "I see you were previously seen by Dr. Singh at our Mesa office."
+  },
+  {
+   "start": 141.9,
+   "end": 145.46,
+   "text": "Does the Mesa office still work for you or would you like a different office?"
+  },
+  {
+   "start": 148.7,
+   "end": 151.0,
+   "text": "Yes, it works for me."
+  },
+  {
+   "start": 152.43,
+   "end": 152.91,
+   "text": "Perfect."
+  },
+  {
+   "start": 153.45,
+   "end": 155.45,
+   "text": "What kind of appointment are you looking for?"
+  },
+  {
+   "start": 155.45,
+   "end": 161.21,
+   "text": "a regular follow-up, a diabetes check-in, or something specific like a thyroid biopsy?"
+  },
+  {
+   "start": 163.11,
+   "end": 168.96,
+   "text": "Lab. Thanks for letting me know. Since lab appointments are handled a bit differently,"
+  },
+  {
+   "start": 169.56,
+   "end": 173.72,
+   "text": "let me take a quick message and have our manager Bridgette call you back to help with"
+  },
+  {
+   "start": 173.72,
+   "end": 178.7,
+   "text": "scheduling your labs. Could you please confirm your full name and the best callback number?"
+  },
+  {
+   "start": 191.28,
+   "end": 196.12,
+   "text": "Got it. Taking down your message now. Your request is in our manager Bridgette will"
+  },
+  {
+   "start": 196.12,
+   "end": 200.98,
+   "text": "call you back to help schedule your lab appointment at the MISA office. Is there"
+  },
+  {
+   "start": 200.98,
+   "end": 210.68,
+   "text": "anything else I can help you with today? No. Thanks for calling. Have a great day."
+  }
+ ]
+}

@@ -1,0 +1,16 @@
+User: Hello? Hello? 
+Agent: Hello, this is Sara calling from [CLINIC] [LOCATION]. May I speak with [NAME]?
+User: Yes. I am. 
+User: [DIGITS]. 
+User: Yes. Hello? 
+Agent: Thank you, [NAME]. I’m calling to remind you of your appointment on Sunday, [DOB] at ten twenty AM with Kathryn Nieman at our [CLINIC] [LOCATION] location.
+
+Are you still able to attend this appointment?
+User: Hello? 
+Agent: Yes, [NAME], I’m here. Are you still able to attend your appointment on Sunday, [DOB] at ten twenty AM with Kathryn Nieman at [CLINIC] [LOCATION]?
+User: So you say Sunday. You open on Sunday. 
+Agent: Thank you for catching that, [NAME]. Your appointment is actually on Monday, [DOB] at ten twenty AM with Kathryn Nieman at [CLINIC] [LOCATION].
+
+Are you still able to attend this appointment?
+User: I I talking about the the I talking about the people. 
+Agent: I 

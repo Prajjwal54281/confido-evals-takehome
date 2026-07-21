@@ -1,0 +1,12 @@
+Agent: Hello, this is Sara calling from [CLINIC] [LOCATION] on a recorded line. May I speak with [NAME]?
+User: Speaking. 
+Agent: Thank you, [NAME]. I’m calling to remind you of your appointment on Monday, [DOB] at nine AM with Rebecca Potter at our [CLINIC] [LOCATION] location. Are you 
+User: Sí. 
+Agent: still able to attend this appointment?
+User: Yes. 
+Agent: Perfect, your appointment has been confirmed. We ask 
+User: Thank you. This 
+Agent: that you arrive fifteen 
+User: is AI. 
+Agent: Thank you. 
+User: Okay. 

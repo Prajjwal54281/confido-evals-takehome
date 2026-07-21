@@ -1,0 +1,5 @@
+Agent: Hello, this is Sara with 
+User: Hello. This is 
+Agent: the Financial Services team on a recorded line. How can I help you today? 
+User: Hi. My name is [NAME], and I got a bill for a supposed to be my whatever part of a payment for a eye care specialist. And you guys didn't bill my secondary insurance. Which covers all my co pays. 
+Agent: I understand you have a concern about your bill and insurance coverage. For questions about insurance or coverage, I will connect you with an expert in our team who can help with that. For your security, the next agent will need to confirm your details. There may be a brief wait while you are connected.

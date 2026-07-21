@@ -1,0 +1,53 @@
+Agent: Hello, this is Sara with the Financial Services team on a recorded line. How can I help you today? 
+User: Do you handle [CLINIC]? 
+Agent: Yes, I can assist with accounts for [CLINIC]. How can I help you with your 
+User: Can I make 
+Agent: billing or payment question today?
+User: a payment question? Can I pay by phone or do I to send the bill back in? 
+Agent: You can make a payment by phone with me today, or you can mail your payment if you prefer. Would you like to take care of your balance over the phone now, or do you have a specific question about your bill before proceeding?
+User: I like to pay the bill right now. 
+Agent: I can help you with that. For security, I will need to confirm the patient's information. What is the first name of the person whose account you are calling about?
+User: [NAME] [NAME_SPELLED]. 
+Agent: Thank you, [NAME]. And what is their last name?
+User: [NAME], [NAME_SPELLED]. 
+Agent: Thank you for confirming the spelling. And what is their date of birth?
+User: [DOB]. 
+Agent: I am verifying your information.[NAME], you have a current outstanding balance of sixteen dollars and thirty-one cents. Would you like to take care of this balance today?
+User: Yes. 
+Agent: Just to confirm, you would like to pay the full amount of sixteen dollars and thirty-one cents. Is that correct?
+User: Yes. 
+Agent: Please say your full card number.
+User: [DIGITS]
+Agent: Of course. Let 
+User: Full card number is [DIGITS] go ahead. 
+User: Go ahead. 
+Agent: You can continue with the next digits of your card number when you are ready.
+User: Okay. Ready? Here we go. [DIGITS]. 
+Agent: Got it. Just to be sure, the card number ends in [DIGITS], correct?
+User: That's correct. 
+Agent: What is the expiration date on the card?
+User: August of ninth of August of [DIGITS]. 
+Agent: Thank you. What is the CVV number on your card?
+User: That's [DIGITS]. 
+Agent: Understood. What is the billing ZIP code for the card?
+User: [DIGITS]. 
+Agent: Is the card in the name of [NAME]?
+User: Yes. It is. 
+Agent: We will process your payment for sixteen dollars and thirty-one cents. Please confirm that this is the amount you would like to be charged.
+User: That is correct. Sixteen dollars and thirty one cents. 
+Agent: Please 
+Agent: wait while I process your payment.It looks like the CVV number you provided should be three digits. Could you please provide the three-digit CVV number from the back of your card?
+User: Is that the security code? [DIGITS]. 
+Agent: Yes, the CVV is the three-digit security code on the back of your card. Please read only the three 
+User: And that's 
+Agent: digits shown there. What are those three digits?
+User: [DIGITS]. 
+Agent: Understood. What is the billing ZIP code for the card?
+User: [DIGITS]. 
+Agent: Please wait while I process 
+Agent: your payment.Just a moment. 
+Agent: I'm making sure this text goes through for you.We have processed your payment for sixteen dollars and thirty-one cents, and you will receive a confirmation by text message. Is there anything else I can help you with today?
+User: No. That's good. Thank you very much. 
+Agent: Before you go, I’d love your feedback on our call today. How would you rate your experience, on a scale of 1 to 5, with 5 being excellent?
+User: I'll give you five 
+Agent: Thank you for your feedback. Have a great day.
