@@ -110,7 +110,7 @@ resolved.
 **call_16** - Multilingual mess. Caller opens in French, agent replies in French
 ("Je suis désolée"), then reverts to English. Later the caller answers in Spanish
 ("Gracias por [NAME]") and the agent switches to Spanish for exactly one turn, then
-reverts to English again with "Just checking in—are you still there?". Language
+reverts to English again with "Just checking in". Language
 selection is per-turn and unstable. Also a name-confusion loop near the end where
 the agent asks whether the prescription is for [NAME] or [NAME] - unanswerable as
 rendered, but that is a redaction artifact, not an agent failure. Ticket.

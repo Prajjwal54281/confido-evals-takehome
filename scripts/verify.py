@@ -51,7 +51,7 @@ tq = [("11","obviously not."),("11","i would like to talk to the doctor"),
       ("15","i had called earlier"),("09","i do not see any active prescriptions"),
       ("27","we will call you back tomorrow"),("15","virtual receptionist"),
       ("12","i need to order my contacts"),("26","i'm living on social security"),
-      ("16","just checking in—are you still there"),
+      ("16","just checking in"),
       ("04","please wait while i create a request for our teami have created a task")]
 for cid, q in tq:
     check(f"transcript quote call_{cid}: {q[:38]!r}", q in tx[cid])
@@ -93,7 +93,7 @@ em = []
 for f in list(P.glob('deliverables/*.md')) + list(P.glob('notes/*.md')):
     for i, line in enumerate(f.read_text(encoding='utf-8').splitlines(), 1):
         if '—' in line: em.append((f.name, i))
-check("em dashes: exactly 1 (verbatim call-16 quote in read_log)", len(em) == 1, str(em[:3]))
+check("em dashes: zero anywhere", len(em) == 0, str(em[:3]))
 
 bad = []
 for f in list(P.glob('deliverables/*.md')) + list(P.glob('notes/*.md')):
