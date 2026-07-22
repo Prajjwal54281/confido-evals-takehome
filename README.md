@@ -12,7 +12,7 @@ the sample-size caveats and the two framing assumptions everything else depends 
 | [deliverables/](deliverables/) | the submission: rubric, judge prompts, error analysis, failure patterns, video notes |
 | [notes/](notes/) | working evidence: full read log of all 50 transcripts, manual scoring round, audio findings |
 | [data/](data/) | per-call transcripts, mechanical index, intent labels, ASR output, judge dry-run results |
-| [scripts/](scripts/) | the pipeline, plus `verify.py` - 100+ checks that every quoted claim string-matches its source |
+| [scripts/](scripts/) | the pipeline, plus `verify.py`, which re-derives every numeric claim from the raw data and string-matches every quoted passage against its source (it prints its own check count) |
 
 Reproduce:
 

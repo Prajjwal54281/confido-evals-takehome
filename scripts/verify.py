@@ -10,7 +10,10 @@ import pathlib, json, re, csv, subprocess, sys
 
 P = pathlib.Path(__file__).resolve().parents[1]
 fails = []
+n_checks = 0
 def check(name, ok, detail=""):
+    global n_checks
+    n_checks += 1
     print(f"{'PASS' if ok else 'FAIL'}  {name}" + (f"  [{detail}]" if detail and not ok else ""))
     if not ok: fails.append(name)
 
@@ -164,5 +167,6 @@ for sid, phrase, n in replay:
 todos = sum(f.read_text(encoding='utf-8').count('TODO(me)')
             for f in list(P.glob('deliverables/*.md'))+list(P.glob('notes/*.md')))
 print(f"\nopen TODO(me): {todos}")
+print(f"checks run: {n_checks}, failed: {len(fails)}")
 print("RESULT:", "ALL PASS" if not fails else f"{len(fails)} FAILURES: {fails}")
 sys.exit(1 if fails else 0)
