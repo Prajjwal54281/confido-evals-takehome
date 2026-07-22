@@ -1,12 +1,12 @@
 # Evaluation rubric
 
-Seven dimensions. Four on agent performance, three on patient experience. Each one
-earned its place by changing a decision someone would make; anything that didn't is
-in the Ruled Out section at the bottom, which is the more informative half of this
-document.
+Seven dimensions - four on agent performance, three on patient experience. Each one
+is here because it changes a decision someone would make. Anything that didn't make
+that cut is in the Ruled Out section at the bottom, which honestly carries as much
+of the argument as the rubric itself.
 
-Derived from hand-scoring 12 calls against a rougher 9-dimension v0 and watching it
-break. That process is in `notes/manual_scoring_v0.md` and `notes/v0_learnings.md`.
+It came from hand-scoring 12 calls against a rougher 9-dimension v0 and watching
+where it broke. That process is in `notes/manual_scoring_v0.md` and `notes/v0_learnings.md`.
 
 ## Two things that constrain everything below
 
@@ -16,7 +16,7 @@ automation rate and patient experience because those are the two numbers a voice
 company reports. If Confido's actual north star is different, the dimensions stay
 but the weighting changes.
 
-**"Automation rate" as a single number is the wrong instrument here.** Calls 01–07
+**"Automation rate" as a single number is the wrong tool here.** Calls 01–07
 are fully contained - no human touched them - and not one produced an outcome for
 the caller. Call 18 escalated immediately and is the best-handled call in the set.
 A rate that scores those the same way is measuring cost, not performance. The rubric
@@ -76,7 +76,7 @@ an order was never placed.
 **Why it's in.** Automation rate and containment rate are both derivable from this
 one field, and they come out different. `resolved + committed` is the honest
 automation numerator. `everything except transferred_*` is containment. In this
-sample the gap between those two is the entire finding.
+sample the gap between those two numbers is the main finding.
 
 **Computed:** judge, with a deterministic pre-pass that flags transfer and callback
 language (`scripts/index.py`) as evidence the judge must reconcile against.
@@ -139,7 +139,7 @@ calls and cause abandonment).
 | 1 | The agent asserted something the caller then corrected, or contradicted itself. Call 39: states Sunday, patient says "You open on Sunday?", agent corrects to Monday. Call 21: asserts a 4-digit CVV requirement, caller corrects it. |
 | `abstain` | No claim in this transcript is checkable. **This is the expected output for most calls and is not a failure of the judge.** |
 
-**What does not count - and this is the whole design of this dimension.** A
+**What does not count - and this is the core design choice here.** A
 transcript cannot verify that "your balance is sixty-five dollars" is true. Any
 judge that scores such a claim is hallucinating a ground truth it does not have.
 The judge must abstain, and **abstain rate is reported as a first-class statistic,
@@ -148,11 +148,11 @@ not hidden.**
 **Why it's in, given it abstains most of the time.** Because the two calls it does
 catch are the two most serious errors in the sample: a wrong appointment date given
 to a patient, and a payment system asserting a false fact about a caller's own card.
-A dimension that fires twice in 50 and catches those two is worth running. Its base
+A dimension that fires twice in 50 and catches those two earns its slot. Its base
 rate is low, which is exactly why it needs the audit cadence in
 `02_judge_prompts.md`.
 
-**Honest limitation.** As specified, this measures *caller-caught* errors. Recall
+**Limitation.** As written, this measures *caller-caught* errors. Recall
 depends on how assertive the caller is. A deferential caller makes the agent look
 accurate. Real accuracy measurement needs tool-call logs against the EHR, which is
 the first thing I would instrument with production access.

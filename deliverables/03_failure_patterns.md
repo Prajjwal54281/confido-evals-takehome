@@ -1,8 +1,8 @@
 # Six failure patterns
 
-Every call ID below was verified by reading the transcript, then re-verified by
-regex over all 50 files. Denominators are stated. Where a pattern sits at the ≥3
-threshold, I say so rather than padding it.
+I verified every call ID below by reading the transcript, then double-checked the
+counts with regex over all 50 files. Denominators are stated. Where a pattern only
+just clears the 3-call bar, I say so instead of padding it.
 
 **Audio update.** After this document was first drafted, the 10 recordings were
 ASR-transcribed (`notes/audio_findings.md`). The audio is an independent sample from
@@ -29,14 +29,14 @@ one inbound clinical or records call in the sample ends with the caller's need m
 
 The agent runs a 10–14 question intake, then creates a ticket for a human team.
 
-**Damning exchange - call 04**, after thirteen questions:
+**From call 04**, after thirteen questions:
 
 > **Agent:** Please wait while I create a request for our teamI have created a task
 > for our Medical Records Team to fax the most recent eye report for [NAME] to your
 > office. If our team needs more information, they will call you Monday through
 > Friday between eight thirty AM and four thirty PM.
 
-**Mechanism.** This hits automation rate and not patient experience because the
+**Why it hits this metric.** This hits automation rate and not patient experience because the
 callers mostly aren't unhappy - several thank the agent warmly. What moves is cost.
 Every one of these calls produces a queue item that a human must pick up, read,
 re-verify, and action. The agent has converted a phone call into a phone call *plus*
@@ -58,7 +58,7 @@ existing finalised documents. That is the difference between `deferred` and
 (call 15), and disability-filing releases (call 06) genuinely require human review
 and probably always will. For these the goal is not resolution - it's A-3 below.
 
-**Contestable.** If Confido's product spec says "the agent is an intake bot, humans
+**The counter-argument.** If Confido's product spec says "the agent is an intake bot, humans
 action everything," then this is not a failure at all and the correct week-one
 metric is intake completeness, not automation rate. I'd want that settled before
 building anything.
@@ -87,7 +87,7 @@ correct transfers are 17, 18, 24.
   transfer; the caller's next and final word is "reschedule" - the thing the agent
   is built to do.
 
-**Damning exchange - call 40:**
+**From call 40:**
 
 > **Agent:** Let me transfer you to our front desk so they can assist you with your
 > question about bringing your child to the session. Please hold for just a moment.
@@ -95,8 +95,8 @@ correct transfers are 17, 18, 24.
 > **Agent:** I apologize, it looks like I’m having trouble transferring your call
 > right now. I recommend calling our front desk directly.
 
-**Mechanism.** Pure automation loss, and call 40 is the worst possible outcome in
-the whole taxonomy: the agent consumed the caller's time, failed, and pushed the
+**Why it hits this metric.** Pure automation loss, and call 40 is the worst outcome on
+the list: the agent consumed the caller's time, failed, and pushed the
 work back onto the caller as a *new inbound call*. That call gets counted twice in
 volume and once as a success in any containment metric that doesn't look at
 outcomes. Call 22 is the cheapest loss to recover - emailing a receipt after a
@@ -136,7 +136,7 @@ the agent asking the *caller* to declare their own urgency: "If you need them wi
 twenty-four hours, I will mark this as urgent." That is prioritisation handed to the
 person with the least information about clinic capacity.
 
-**Damning contrast.** Call 11, after the caller has been waiting three hours on a
+**The contrast.** Call 11, after the caller has been waiting three hours on a
 callback that never came:
 
 > **Agent:** They will review your wife's prescription issue and follow up with you
@@ -147,7 +147,7 @@ Against call 10, the only clean SLA in fifty calls:
 > **Agent:** The team typically processes these within two to three business days.
 > **User:** Yep. That's perfect. Thank you.
 
-**Mechanism.** I have this under automation rather than experience deliberately,
+**Why it hits this metric.** I put this under automation rather than experience deliberately,
 even though it feels like an experience problem. A caller with no timeframe and no
 reference number has exactly one way to check on their request: call back. Calls 13
 and 15 are that second call, visible in the sample because the callers said so out
@@ -155,7 +155,7 @@ loud - "Do I have to repeat everything I just told to the other person?" and "I 
 called earlier, no one has returned the call." Vague commitments manufacture inbound
 volume, and that volume lands in the denominator of the automation rate.
 
-**Fix.** The cheapest high-impact change in this document. A prompt change plus one
+**Fix.** The cheapest change in this document with real impact. A prompt change plus one
 small backend field:
 1. Every ticket-creating flow must close with a reference number read back to the
    caller and a stated turnaround for *that request type*.
@@ -183,7 +183,7 @@ menu re-read every time. Five unambiguous instances across two independent sampl
 This was my thinnest pattern when it was transcript-only; it is now the
 best-corroborated one, and the ranking below moves it to #1.
 
-**Damning exchange - call 11:**
+**From call 11:**
 
 > **User:** I would like to talk to the doctor and find out if what you know, why
 > can't somebody at the at Thomas Johnson told tell me that, you know, that that
@@ -202,7 +202,7 @@ caller - who says "I wish I could understand you. I'm sorry. I can't." - volunte
 the drug name, the strength, the pharmacy, and the doctor. Call 47's caller says "I
 need to speak to a real person" during a lookup pause.
 
-**Mechanism.** This is experience and not automation because the automation cost of
+**Why it hits this metric.** This is experience and not automation because the automation cost of
 honouring these requests is *negative* - call 11 ends in a ticket anyway, so
 transferring would have cost nothing in containment and salvaged the relationship.
 What's damaged is trust. A caller who asks for a human and is handed a form has
@@ -238,13 +238,12 @@ and gets redirected to the appointment. Call 35's caller states "This is AI" and
 agent says "Thank you." Call 15, asked for a name, answers correctly: "My name is
 Sara, and I am the virtual receptionist for [CLINIC]."
 
-**Mechanism.** Three calls out of fifty is a low base rate and I'd normally not
+**Why it hits this metric.** Three calls out of fifty is a low base rate and I'd normally not
 promote it. It's here because severity and remediation cost are both extreme
 outliers. A patient who is told "I’m a real assistant" and later discovers otherwise
 has a story that ends with the clinic, not with Confido - and several US states now
 require disclosure on AI-handled consumer calls. The fix is one paragraph of prompt.
-Low prevalence, high severity, trivial remediation is precisely the profile that
-belongs in a week-one list.
+Rare, severe, and cheap to fix - that combination belongs in a week-one list.
 
 **Fix.** Prompt change, stated as an absolute:
 1. If a caller asks in any form whether they are speaking to a person, a machine, an
@@ -289,7 +288,7 @@ correction and the agent absorbs it as agreement and logs a prescription request
 instead of an order. Call 39's agent, having been corrected on the appointment day
 by the patient, loses the conversational thread entirely.
 
-**Mechanism.** Experience rather than automation, because the callers most affected
+**Why it hits this metric.** Experience rather than automation, because the callers most affected
 are the ones least able to advocate for themselves - an elderly caller who can't
 hear, a caller operating in a second language. Call 17's caller gives up and says
 he'll ask the pharmacist. That's a patient who now believes the clinic is
@@ -423,7 +422,7 @@ in call 14 and garbles most of call 17's turns. **Survives, narrowly, and only f
 the adaptation half.** Whether ASR heard the caller correctly is not the claim. The
 claim is that after failing to understand, the agent emitted a byte-identical
 sentence three times. That's a dialogue-policy defect independent of ASR quality - 
-in fact it's *most* important precisely when ASR is struggling. The call 16 language
+in fact it matters most exactly when ASR is struggling. The call 16 language
 instability sub-claim is unaffected by ASR quality either way.
 
 **One objection that applies to all six.** The 50 transcripts span at least three
@@ -452,6 +451,6 @@ Provenance note: every audio quote in this document is machine transcription
 (whisper-small, `scripts/transcribe.py`), not a human transcript. The full ASR
 output with segment timestamps is committed in `data/audio_transcripts/`, so every
 quote is checkable against it, and `scripts/verify.py` string-matches each quoted
-passage against those files on every run. The two load-bearing files if anyone
+passage against those files on every run. The two files that matter most, if anyone
 wants to verify by ear: 381df7d8fd17 (triage re-ask, ~50–75s) and c8bbec5bd602
 (three refused escalation requests).

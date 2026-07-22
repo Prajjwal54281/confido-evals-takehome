@@ -8,11 +8,11 @@ audit plan.
 A single mega-judge scoring all seven dimensions in one pass is cheaper and I don't
 recommend it. Three reasons, in order of how much they cost you:
 
-1. **Halo bleed.** In my own manual round I caught myself scoring call 08 more
-   harshly on expectation-setting *because* I'd just scored it 1 on outcome. A model
-   emitting seven scores in one object will do this worse than I did, and there is no
-   way to detect it after the fact.
-2. **Abstain discipline collapses.** A4 (Grounded Accuracy) is supposed to abstain
+1. **Scores contaminate each other.** In my own manual round I caught myself
+   scoring call 08 more harshly on expectation-setting *because* I'd just scored it
+   1 on outcome. A model emitting seven scores in one object will do this worse than
+   I did, and there is no way to detect it after the fact.
+2. **The abstain path stops being used.** A4 (Grounded Accuracy) is supposed to abstain
    on most calls. In a combined prompt, surrounded by six dimensions that all
    produce confident scores, the model produces a confident A4 score too. I care
    about A4's abstain rate as a reported number; contaminating it defeats the point.
@@ -25,13 +25,13 @@ evidence - the outcome and whether the outcome was right are the same passage of
 transcript - and separating them causes the escalation judge to re-derive the
 outcome anyway.
 
-## Design decisions worth defending
+## Design decisions and the reasons behind them
 
 **Rationale before score, evidence before rationale.** Every schema below orders
 fields `evidence` → `rationale` → `score`. JSON is generated left to right; a score
 emitted first becomes a commitment the rationale then rationalises. Requiring the
 model to quote turns first means the score is conditioned on retrieved evidence
-rather than on a gestalt of the whole transcript. This costs tokens and it is worth
+rather than on a general impression of the whole transcript. This costs tokens and it is worth
 it. If you use structured outputs / tool-calling, check that your provider preserves
 key order rather than reordering to match the schema alphabetically.
 
@@ -56,7 +56,7 @@ calls here are voicemail drops and four cut mid-conversation; that's 26% of the
 sample where abstain is the correct answer for most dimensions.
 
 **Redaction clause is in every prompt, verbatim, near the top.** Not in a preamble
-that gets skimmed. This is the brief's explicit instruction and the single easiest
+that gets skimmed. This is the brief's explicit instruction and the easiest
 way for a judge to produce garbage - call 16 contains a name-disambiguation loop
 that looks exactly like agent confusion and is entirely an artifact of two people
 both rendering as `[NAME]`.
@@ -699,8 +699,8 @@ Any one of these, not a committee:
   dimension three weeks running**. That's a systematic anchor problem, not noise.
 - **The agent's own prompt changes.** Non-negotiable. Re-run the full gold set before
   and after every agent release and diff the score distributions. A judge calibrated
-  against an old agent silently mis-scores a new one, and this is the failure mode
-  that ends with a quality dashboard that has quietly stopped meaning anything.
+  against an old agent silently mis-scores a new one, and that is how you end up
+  with a quality dashboard nobody should trust.
 
 ## What I would not automate yet
 
@@ -718,7 +718,7 @@ week, relax to a daily digest with a same-day review SLA. The trigger is the
 measured rate, not a calendar date.
 
 A maintenance rule, not a suggestion: the few-shot examples in these prompts are
-load-bearing calibration drawn from the manually scored calls. If any of those
+calibration data drawn from the manually scored calls, not decoration. If any of those
 calls is re-adjudicated - by a second rater or by the gold-set process - the
 example in the prompt must change with it, and the change is a prompt version bump
 that triggers the full regression run.

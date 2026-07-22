@@ -52,9 +52,9 @@ Have open on screen: `notes/read_log.md`, `data/index.csv`, and call_11.txt.
   - Only 2 of 50 calls contain an agent-side time commitment. **Zero of 50 give a
     reference number.**
 - So the finding isn't "it fails to resolve." It's "it never closes the loop." That
-  reframe is the whole submission.
+  reframe carries the submission.
 
-## 2:30–3:00 - Two rubric decisions worth defending
+## 2:30–3:00 - Two rubric decisions to explain
 
 - **Empathy is cut.** Zero variance. The agent says "I understand," "I'm sorry," "I
   understand this is frustrating" in nearly every call - including call 11, where

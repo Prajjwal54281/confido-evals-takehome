@@ -32,7 +32,7 @@ Second: I treat **containment and resolution as different things** and score the
 separately. Calls 01–07 are fully contained - no human touched them - and produced
 zero outcomes for the caller. Call 18 escalated immediately and is the best-handled
 call in the set. Any single automation number that scores those the same way is
-measuring cost, not performance. This split is the spine of the whole submission; if
+measuring cost, not performance. This split runs through everything else here; if
 you disagree with it, most of what follows reads differently.
 
 ## What's here

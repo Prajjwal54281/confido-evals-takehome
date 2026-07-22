@@ -2,8 +2,8 @@
 
 ## The order I did things in
 
-Ground truth first, rubric second. I read all 50 transcripts end to end before
-writing a single dimension. That ordering matters: had I written the rubric first I
+I read all 50 transcripts end to end before writing a single rubric dimension.
+Ground truth first, rubric second. That ordering matters: had I written the rubric first I
 would have written the standard voice-AI rubric - resolution, empathy, accuracy,
 tone - and four of those six dimensions would have measured nothing on this data.
 
@@ -127,7 +127,7 @@ wrong accuracy number on a dashboard.
 
 **Prompt consequence.** Judge 3 is now built around a mandatory abstain path with an
 enumerated list of what it may not score, and it opens by telling the model what it
-does not have access to. The load-bearing lines:
+does not have access to. The lines doing the actual work:
 
 > You do NOT have access to the clinic's records, schedule, or billing system. You
 > therefore CANNOT verify whether any of these are true [...] DO NOT SCORE THESE.
@@ -184,7 +184,7 @@ score ordering holds, and the abstain path fires where it should - Judge 3
 declined to score call 26's balance claim exactly as instructed, and reported the
 two claims it could not check in `unverifiable_claims_seen`.
 
-What it does not establish, stated before anyone over-reads the table: **judge
+What it does not establish, so nobody over-reads the table: **judge
 accuracy.** Most of the overlap calls (10, 11, 18, 39) also appear as few-shot
 examples inside the very prompts being tested, so agreement on them is partially
 circular - the judge was shown the answer. The two clean data points are calls 26
