@@ -1,0 +1,17 @@
+{
+ "trigger_turn": {
+  "turn_id": "T9",
+  "quote": "I'm living on Social Security"
+ },
+ "agent_response_turn": {
+  "turn_id": "T7",
+  "quote": "Would you like to make a partial payment today instead"
+ },
+ "rationale": "The caller stated a financial constraint. The agent's next actions changed because of it: a partial-payment offer, then a specific callback date and time taken and confirmed.",
+ "score": 4,
+ "plan_changed": true,
+ "empathy_language_present": true,
+ "confidence": "high",
+ "abstain": false,
+ "abstain_reason": null
+}

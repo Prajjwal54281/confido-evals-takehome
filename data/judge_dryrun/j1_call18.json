@@ -1,0 +1,27 @@
+{
+ "outcome_evidence": [
+  {
+   "turn_id": "T3",
+   "quote": "it is best to speak directly with your clinical care team"
+  },
+  {
+   "turn_id": "T3",
+   "quote": "Let me connect you with our team who can assist you directly"
+  }
+ ],
+ "outcome_rationale": "Clinical dosing question routed to the care team immediately; the transcript ends at the hold, consistent with a connecting transfer.",
+ "outcome": "transferred_warm",
+ "commitment_timeframe": null,
+ "escalation_evidence": [
+  {
+   "turn_id": "T3",
+   "quote": "whether you should continue using the drops"
+  }
+ ],
+ "escalation_rationale": "Genuine clinical question; escalation is the correct action per the rubric regardless of automation cost, and it happened at the first signal, in three sentences.",
+ "escalation_score": 4,
+ "caller_requested_human": false,
+ "confidence": "high",
+ "abstain": false,
+ "abstain_reason": null
+}

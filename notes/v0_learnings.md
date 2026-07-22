@@ -174,6 +174,6 @@ Stated here so they don't leak into the deliverables as findings:
 Nine down to seven, and the seven measure different things from each other, which
 the nine did not.
 
-TODO(me): #1 is an opinion about what Confido's product should be, not a
-measurement. If you disagree that intake-only is the real story, say so - it's the
-spine of the failure-pattern section and the whole thing pivots on it.
+One caveat on #1: it is an opinion about what Confido's product should be, not a
+measurement, and it is declared as the submission's framing assumption in the
+README rather than smuggled in as a finding.

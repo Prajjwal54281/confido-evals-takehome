@@ -1,0 +1,27 @@
+{
+ "outcome_evidence": [
+  {
+   "turn_id": "T14",
+   "quote": "having trouble transferring your call"
+  },
+  {
+   "turn_id": "T14",
+   "quote": "I recommend calling our front desk directly"
+  }
+ ],
+ "outcome_rationale": "The appointment confirmation succeeded, but the caller's live question triggered a transfer that failed, and the agent's fallback was to tell the caller to place a new call themselves.",
+ "outcome": "transferred_failed",
+ "commitment_timeframe": null,
+ "escalation_evidence": [
+  {
+   "turn_id": "T12",
+   "quote": "Let me transfer you to our front desk"
+  }
+ ],
+ "escalation_rationale": "Escalating a facility question is defensible; the failure mode is the fallback. Pushing the retry onto the caller scores 1 under the anchor for failed escalation.",
+ "escalation_score": 1,
+ "caller_requested_human": false,
+ "confidence": "high",
+ "abstain": false,
+ "abstain_reason": null
+}

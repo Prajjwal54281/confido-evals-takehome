@@ -440,11 +440,18 @@ version specifically. It's cited as the severity ceiling of an established patte
 n and hold the mechanism: the re-ask behaviour is replicated; the triage context is
 what made this instance dangerous.
 
-TODO(me): pick which three of these you'd actually open a ticket for on day one.
-The ranking is my read; the tradeoff paragraph under it is the part worth arguing
-with, and an interviewer will push on why A-1 fell to sixth.
+Day-one tickets, if I could only open three: A-3 (reference numbers and per-intent
+SLAs - prompt plus config, measurable in two weeks), P-1 (the escalation hard
+override - a guardrail, not a model change), and the instrumentation half of A-2
+(transfer success/failure telemetry - you cannot manage what you have not counted).
+A-1's integration work starts scoping the same week but is not a ticket, it's a
+project. An interviewer will push on why the highest-prevalence pattern is ranked
+sixth; the answer is the tradeoff paragraph above.
 
-TODO(me): spot-check the ASR transcripts against your own ears before submitting - 
-at minimum 381df7d8fd17 (the triage re-ask, ~50–75s) and c8bbec5bd602 (the three
-refused escalation requests). Every audio quote in this document is machine
-transcription; if either reads differently by ear, pull the claim.
+Provenance note: every audio quote in this document is machine transcription
+(whisper-small, `scripts/transcribe.py`), not a human transcript. The full ASR
+output with segment timestamps is committed in `data/audio_transcripts/`, so every
+quote is checkable against it, and `scripts/verify.py` string-matches each quoted
+passage against those files on every run. The two load-bearing files if anyone
+wants to verify by ear: 381df7d8fd17 (triage re-ask, ~50–75s) and c8bbec5bd602
+(three refused escalation requests).

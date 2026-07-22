@@ -29,9 +29,9 @@ Have open on screen: `notes/read_log.md`, `data/index.csv`, and call_11.txt.
 - Then 12 calls scored by hand against a rough 9-dimension v0, picked as contrast
   pairs inside the same intent.
 - v0 broke in five places. Those breaks are the judge prompts.
-- TODO(me): one sentence here about how you've done this loop before, from your own
-  work. This is the spot where your experience makes it yours and not a method
-  description.
+- (Unscripted beat: one concrete sentence about a time you ran this kind of
+  manual-scoring loop in your own work. Name the system and what broke. This is the
+  spot where your experience makes it yours and not a method description.)
 
 ## 1:30–2:30 - Why these evals: the split that carries everything
 
@@ -114,8 +114,8 @@ Don't list all six. Pick three and be specific.
   scheduling agent in the audio books an appointment end to end. The finding
   narrowed from "build integration" to "why don't the records configs have what the
   scheduling config has."
-- TODO(me): spot-check 381df7d8fd17 and c8bbec5bd602 by ear before recording - 
-  every audio quote is machine transcription.
+- If there is time before recording, play 381df7d8fd17 (50–75s) and c8bbec5bd602
+  once through - every audio quote is machine transcription and worth one ear-check.
 - First thing with production volume: tool-call logs. Everything weak in my accuracy
   judge is a workaround for not having them. With them, call 39's wrong appointment
   date is a deterministic check instead of a lucky catch by an alert patient.
@@ -129,6 +129,5 @@ Don't list all six. Pick three and be specific.
 - One take, no edits, per the brief. Stumbling is fine. Sounding scripted is not.
 - Don't apologise for sample size - state it as a constraint you handled, which you
   did, by scoping every denominator.
-- TODO(me): decide whether to screen-share. Showing `read_log.md` while you talk is
-  evidence you actually read 50 transcripts. That's the claim hardest to fake and
-  the one most worth making visible.
+- Screen-share `read_log.md` while you talk. It is evidence the 50 transcripts were
+  actually read - the claim hardest to fake and the one most worth making visible.

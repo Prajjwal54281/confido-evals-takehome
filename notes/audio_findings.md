@@ -286,11 +286,16 @@ transcript call 20 I used in the judge prompt.
 | new candidate | greeting/statement replay, 4 of 10 recordings |
 | B2 few-shot | swap transcript call 20 for 25a7b90c6d66's mid-call reclassification |
 
-TODO(me): listen to 381df7d8fd17 around 50–75s yourself and confirm the triage
-re-ask reads the way I've described. If it does, that's arguably the single most
-serious defect in either sample and it may deserve to lead the whole submission
-rather than sitting inside P-3.
+Verification note on the triage claim: the quote is whisper output, checkable
+against `data/audio_transcripts/381df7d8fd17.json` segments at 50.1s ("Are you
+experiencing any severe pain, fever, difficulty urinating or any other concerning
+symptoms right now?"), 56.9s ("Just some burning when I urinate."), 63.0s (the
+re-ask), and 74.4s ("Since you are not experiencing severe symptoms"). The segment
+sequence supports the reading; a human listen is the remaining check, and the
+claim is presented with its ASR provenance stated wherever it appears.
 
-TODO(me): decide whether to promote greeting-replay to a seventh pattern or fold it
-into P-3. It's 4 of 10 and audio-only, which makes it well-evidenced but scoped to a
-sample the transcripts can't corroborate.
+Decision: greeting-replay stays folded into P-3 as audio-only corroborating
+evidence rather than becoming a seventh pattern. It is well-attested (4 of 10
+recordings) but audio-only, spread across different configs, and the transcript
+sample cannot corroborate it - promoting it would break the rule that a pattern
+needs evidence in the sample where it is claimed.

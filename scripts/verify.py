@@ -108,6 +108,59 @@ for f in list(P.glob('deliverables/*.md')) + list(P.glob('notes/*.md')):
         if slop.search(line): hits.append((f.name, i))
 check("slop scan clean", not hits, str(hits[:3]))
 
+# ---- judge dry-run outputs: schema conformance + verbatim evidence ----
+DRY = P / 'data' / 'judge_dryrun'
+J1_REQ = {"outcome_evidence","outcome_rationale","outcome","escalation_evidence",
+          "escalation_rationale","escalation_score","confidence","abstain"}
+J3_REQ = {"checkable_claims","rationale","score","confidence","abstain","abstain_reason"}
+J5_REQ = {"trigger_turn","agent_response_turn","rationale","score","plan_changed",
+          "empathy_language_present","confidence","abstain"}
+OUTCOMES = {"resolved","committed","deferred","transferred_warm","transferred_failed","unresolved"}
+raw_tx = {f"{i:02d}": (P/f"data/transcripts/call_{i:02d}.txt").read_text(encoding='utf-8')
+          for i in range(1,51)}
+
+def quotes_of(obj):
+    if isinstance(obj, dict):
+        if 'quote' in obj: yield obj['quote']
+        for k, v in obj.items():
+            if k.endswith('_quote') and isinstance(v, str): yield v
+            else: yield from quotes_of(v)
+    elif isinstance(obj, list):
+        for v in obj: yield from quotes_of(v)
+
+dry_files = sorted(DRY.glob('*.json'))
+check("8 dry-run outputs", len(dry_files) == 8, str(len(dry_files)))
+for df in dry_files:
+    d = json.loads(df.read_text())
+    judge, cid = df.stem.split('_call')
+    req = {'j1': J1_REQ, 'j3': J3_REQ, 'j5': J5_REQ}[judge]
+    check(f"dryrun {df.stem}: required fields", req <= set(d))
+    if judge == 'j1':
+        check(f"dryrun {df.stem}: outcome enum", d['outcome'] in OUTCOMES)
+        check(f"dryrun {df.stem}: escalation in 1..4",
+              d['escalation_score'] is None or 1 <= d['escalation_score'] <= 4)
+    if judge == 'j3':
+        for c in d['checkable_claims']:
+            check(f"dryrun {df.stem}: evidence_type enum",
+                  c['evidence_type'] in {"caller_contradiction","self_contradiction","restatement_mismatch"})
+        if d['abstain']:
+            check(f"dryrun {df.stem}: abstain has null score and a reason",
+                  d['score'] is None and bool(d['abstain_reason']))
+    bad_q = [q for q in quotes_of(d) if q not in raw_tx[cid]]
+    check(f"dryrun {df.stem}: all quotes verbatim in call_{cid}", not bad_q, str(bad_q)[:80])
+
+# ---- audio claims: greeting/statement replay in 4 of 10 recordings ----
+replay = [("65ce44e043897a7872d74537982","on a recorded line",2),
+          ("5efc2f655ab6f8c59ed98858e32","this call is being recorded for quality assurance",2),
+          ("68384b5d912730be8c93fa0f8dc","speaking with sarah on a recorded line",2),
+          ("209bf832bf900ff32ece9661d93","cassidy abrahamson",2)]
+for sid, phrase, n in replay:
+    short = sid[:12]
+    d = json.loads((P/f"data/audio_transcripts/{short}.json").read_text())
+    joined = " ".join(seg['text'] for seg in d['segments']).lower()
+    check(f"audio replay {short}: {phrase[:30]!r} x{n}", joined.count(phrase) >= n,
+          f"count={joined.count(phrase)}")
+
 todos = sum(f.read_text(encoding='utf-8').count('TODO(me)')
             for f in list(P.glob('deliverables/*.md'))+list(P.glob('notes/*.md')))
 print(f"\nopen TODO(me): {todos}")

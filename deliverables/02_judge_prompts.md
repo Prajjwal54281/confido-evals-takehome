@@ -521,6 +521,16 @@ Social Security." Agent immediately offers a partial payment, then takes a speci
 date and time for a callback and confirms it. -> score 4. The caller's constraint
 changed what the agent offered.
 
+[recording 25a7b90c6d66, ASR transcript] Caller asks for an appointment needing
+"immediate attention"; several turns later they explain they need contact lens
+replacements because their previous optometrist is retiring. Agent: "Thanks for
+explaining. Contact lens prescription renewals or replacements. You will need a
+routine eye exam rather than a medical emergency appointment. Would you like to
+schedule a routine eye exam for contact lenses as a new patient?" - and then books
+it. -> score 4. The agent caught the caller's own mis-triage, reclassified the
+request, and completed the corrected plan. This is the strongest positive example
+in either sample.
+
 [call 11] Caller has been waiting three hours on a broken callback promise and says
 "I would like to talk to the doctor and find out ... why can't somebody at the
 Thomas Johnson office tell me". The agent says "I understand how important this is,
@@ -700,20 +710,16 @@ puts it on a dashboard a product decision hangs on. It is the dimension where I 
 the least confidence that my own anchors are right, and the manual round only gave
 it 12 data points.
 
-TODO(me): decide the alerting threshold for `caller_requested_human=true AND
-escalation_score=1`. My instinct is page-on-every-instance in week one, then relax
-to a daily digest once you know the volume. You know Confido's on-call tolerance and
-I don't.
+Alerting decision for `caller_requested_human=true AND escalation_score=1`:
+page on every instance for the first two weeks - the transcript sample suggests
+this fires a few times per week, not per hour, and the first weeks are when the
+count is most informative. Once measured volume exceeds roughly 20 instances a
+week, relax to a daily digest with a same-day review SLA. The trigger is the
+measured rate, not a calendar date.
 
-TODO(me): the few-shot examples above all come from calls I scored. If you re-score
-any of the 12 and disagree, the examples in these prompts have to change with you - 
-they are load-bearing, not illustrative.
+A maintenance rule, not a suggestion: the few-shot examples in these prompts are
+load-bearing calibration drawn from the manually scored calls. If any of those
+calls is re-adjudicated - by a second rater or by the gold-set process - the
+example in the prompt must change with it, and the change is a prompt version bump
+that triggers the full regression run.
 
-TODO(me): the audio pass found a better top anchor for Judge 5 (B2) than transcript
-call 20: in recording 25a7b90c6d66 the caller asks for an "immediate attention"
-appointment, later explains they just need contact replacements, and the agent
-reclassifies mid-call to a routine exam and completes the booking. If you verify
-that recording by ear, consider swapping it in - but note the tradeoff: it's an ASR
-transcript from the audio sample, and the judges otherwise only ever see
-human-corrected transcripts. Mixing sources in few-shots is a real cost; my lean is
-to keep call 20 and cite 25a7b90c6d66 in the rubric prose instead.

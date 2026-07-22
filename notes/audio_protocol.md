@@ -140,9 +140,10 @@ without one. If a pattern shows up in ≥3 of the 10 sheets it can be claimed as
 systemic for the audio sample, with the sample size stated. Below 3, it goes in
 the writeup as an observation with the call id and nothing more.
 
-TODO(me): listen to all ten and fill the sheets - now with the ASR transcripts open
-alongside, so listening is verification rather than discovery. Budget ~45 min.
-Priority order: 381df7d8fd17 (triage re-ask), c8bbec5bd602 (three refused
-escalations), 90cd69877396 (failed transfer), 209bf832bf90 (list re-read after
-freeze). [Resolved: whisper was installed and all ten transcribed; the README
-carries the never-pool-the-two-artifacts caveat.]
+Status update: superseded in part. All ten files were ASR-transcribed with
+faster-whisper (`scripts/transcribe.py`); the analysis is in
+`notes/audio_findings.md` and the raw segments in `data/audio_transcripts/`. The
+tally sheet above remains the protocol for a human listening pass, which is still
+the right verification step for the two files carrying the strongest claims
+(381df7d8fd17 and c8bbec5bd602) - ASR settles what was said, only ears settle
+latency, barge-in, and tone.

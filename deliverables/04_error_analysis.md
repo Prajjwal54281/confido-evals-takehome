@@ -159,6 +159,39 @@ Both directions of that are in the final design: Judge 2 runs only on
 regex-flagged calls and adjudicates them, while Judge 6 reads the full transcript
 because pre-filtering would have lost a third of its cases.
 
+## A dry run of the judges
+
+Before shipping the prompts as designs, three of them were executed with an LLM
+against six calls chosen to hit the schema's edges - not a production pipeline,
+one pass, outputs committed in `data/judge_dryrun/` and held to the same standard
+as every other claim here: `scripts/verify.py` checks each output for required
+fields, legal enum values, and that every evidence quote is a verbatim substring
+of the cited call.
+
+| output | call | result | matches manual score? |
+|---|---|---|---|
+| Judge 1 | 11 | `deferred`, escalation 1, `caller_requested_human=true` | yes (v0 D1=1, D4=1) |
+| Judge 1 | 18 | `transferred_warm`, escalation 4 | yes (v0 D4 top) |
+| Judge 1 | 10 | `committed`, timeframe quoted | yes (v0 D6 top) |
+| Judge 1 | 40 | `transferred_failed`, escalation 1 | not in manual set |
+| Judge 3 | 39 | score 1, `caller_contradiction`, agent conceded | yes (v0 D7=1) |
+| Judge 3 | 26 | **abstain**, `unverifiable_external_claim`, 2 claims left unscored | not in manual set |
+| Judge 5 | 11 | score 1, `empathy_language_present=true, plan_changed=false` | yes |
+| Judge 5 | 26 | score 4, `plan_changed=true` | not in manual set |
+
+What the dry run does establish: the schemas fill correctly, the evidence-before-
+score ordering holds, and the abstain path fires where it should - Judge 3
+declined to score call 26's balance claim exactly as instructed, and reported the
+two claims it could not check in `unverifiable_claims_seen`.
+
+What it does not establish, stated before anyone over-reads the table: **judge
+accuracy.** Most of the overlap calls (10, 11, 18, 39) also appear as few-shot
+examples inside the very prompts being tested, so agreement on them is partially
+circular - the judge was shown the answer. The two clean data points are calls 26
+and 40, which appear in no prompt. Real agreement numbers require the held-out
+gold set described below, scored by a judge that has never seen those calls in
+its examples. The dry run is a mechanics check, not a validation.
+
 ## How I'd keep refining this
 
 ### Disagreement sampling
@@ -209,6 +242,3 @@ its arguments, and its return, and check what the agent *said* against what the 
 than a lucky catch by an alert patient. That single change moves the lowest-confidence
 metric in this rubric to the highest.
 
-TODO(me): the v0-to-v1 diff above is the strongest single artifact in this
-submission and it's the thing an interviewer will ask you to walk through. Make sure
-you can explain the empathy inversion in your own words without reading it.

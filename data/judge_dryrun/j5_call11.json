@@ -1,0 +1,17 @@
+{
+ "trigger_turn": {
+  "turn_id": "T37",
+  "quote": "I would like to talk to the doctor"
+ },
+ "agent_response_turn": {
+  "turn_id": "T40",
+  "quote": "I will include this request and your concerns in the urgent message"
+ },
+ "rationale": "The caller, on a twice-broken promise, asked for a human. The agent produced three empathy statements and the identical plan: another ticket, another unbounded callback. Empathy language present, plan unchanged, request denied.",
+ "score": 1,
+ "plan_changed": false,
+ "empathy_language_present": true,
+ "confidence": "high",
+ "abstain": false,
+ "abstain_reason": null
+}

@@ -55,6 +55,7 @@ you disagree with it, most of what follows reads differently.
 | `manual_scoring_v0.md` | 12 calls hand-scored against a rough v0, with a "rubric broke here" section |
 | `v0_learnings.md` | what the manual round changed and why |
 | `audio_protocol.md` | listening protocol and tally sheet for the 10 recordings |
+| `audio_findings.md` | ASR-based analysis of the 10 recordings: corrections, corroborations, new evidence |
 
 **Data and scripts** (`data/`, `scripts/`)
 
@@ -63,14 +64,19 @@ you disagree with it, most of what follows reads differently.
 | `data/transcripts/call_01..50.txt` | one file per xlsx row |
 | `data/index.csv` | mechanical per-call facts, no judgment |
 | `data/intents.csv` | my hand-assigned intent labels, one row per call |
+| `data/audio_transcripts/*.json` | whisper ASR of the 10 wavs, per-segment timestamps |
+| `data/judge_dryrun/*.json` | executed judge outputs for 6 calls, schema-conformant, quotes verified |
 | `scripts/extract.py` | xlsx → text files |
 | `scripts/index.py` | every regex used for a mechanical claim, commented |
 | `scripts/audio_silence.py` | silence measurement on the wavs; no ASR |
+| `scripts/judge_dryrun.py` | executes 3 judge prompts on 6 calls → `data/judge_dryrun/` (see 04) |
 | `scripts/transcribe.py` | faster-whisper ASR over the 10 wavs → `data/audio_transcripts/` |
 | `scripts/verify.py` | end-to-end checks: scripts re-run, schemas parse, every quoted piece of evidence string-matches its cited source, numeric claims re-derive from data |
 
-Reproduce with `python3 -m venv .venv && .venv/bin/pip install pandas openpyxl numpy`
-then run the three scripts.
+Reproduce with `python3 -m venv .venv && .venv/bin/pip install pandas openpyxl
+numpy faster-whisper`, then run the scripts in the order listed. `verify.py` is
+the gate: it re-runs the pipeline and exits nonzero if any quoted claim fails to
+string-match its source.
 
 ## Call IDs
 
@@ -125,9 +131,11 @@ timestamps). Findings are in `notes/audio_findings.md`. Three things to know:
 - One rater. Every manual score in `manual_scoring_v0.md` is mine and unadjudicated.
 - The 12 manually scored calls were **deliberately enriched for failure** to stress
   the rubric. No rate should be computed from them.
-- The judge prompts in `02_judge_prompts.md` have not been run against the data.
-  They are designed from the manual round; their κ against human labels is unmeasured
-  and I have not claimed otherwise anywhere in this submission.
+- The judge prompts were dry-run on six calls (`data/judge_dryrun/`,
+  documented in `04_error_analysis.md`) - enough to prove the schemas and the
+  abstain path work, not enough to claim accuracy: most overlap calls appear in
+  the prompts' own few-shot examples, so their κ against human labels remains
+  unmeasured and I have not claimed otherwise anywhere in this submission.
 - Intent labels in `data/intents.csv` are my judgment. Several are contestable - 
   call 03 in particular reads as either a records request or a clinical question
   depending on where you put the boundary.

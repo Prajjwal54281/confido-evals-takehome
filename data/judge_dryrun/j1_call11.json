@@ -1,0 +1,31 @@
+{
+ "outcome_evidence": [
+  {
+   "turn_id": "T40",
+   "quote": "I have created an urgent task for our team"
+  },
+  {
+   "turn_id": "T40",
+   "quote": "contact you as soon as possible"
+  }
+ ],
+ "outcome_rationale": "A ticket was created with no timeframe beyond 'as soon as possible' and no reference number. The same promise was already broken once earlier the same day, per the caller.",
+ "outcome": "deferred",
+ "commitment_timeframe": null,
+ "escalation_evidence": [
+  {
+   "turn_id": "T37",
+   "quote": "I would like to talk to the doctor"
+  },
+  {
+   "turn_id": "T40",
+   "quote": "I will include this request and your concerns in the urgent message"
+  }
+ ],
+ "escalation_rationale": "The caller explicitly asked to speak to the doctor. The agent answered the request by documenting it inside another ticket rather than transferring.",
+ "escalation_score": 1,
+ "caller_requested_human": true,
+ "confidence": "high",
+ "abstain": false,
+ "abstain_reason": null
+}

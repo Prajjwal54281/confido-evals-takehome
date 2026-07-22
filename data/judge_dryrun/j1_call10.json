@@ -1,0 +1,27 @@
+{
+ "outcome_evidence": [
+  {
+   "turn_id": "T24",
+   "quote": "The team typically processes these within two to three business days"
+  },
+  {
+   "turn_id": "T25",
+   "quote": "That's perfect"
+  }
+ ],
+ "outcome_rationale": "A ticket, but with a stated what (glasses prescription to email), who (the team), and when (two to three business days). Meets the committed bar; no reference number, so not resolved.",
+ "outcome": "committed",
+ "commitment_timeframe": "within two to three business days",
+ "escalation_evidence": [
+  {
+   "turn_id": "T3",
+   "quote": "I understand you need another copy of your glasses prescription"
+  }
+ ],
+ "escalation_rationale": "Routine eyewear-prescription request handled without escalation, which matches how sibling calls handle the same intent. Correct non-escalation.",
+ "escalation_score": 4,
+ "caller_requested_human": false,
+ "confidence": "high",
+ "abstain": false,
+ "abstain_reason": null
+}

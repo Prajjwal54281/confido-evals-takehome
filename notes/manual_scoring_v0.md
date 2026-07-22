@@ -187,6 +187,7 @@ Two smaller ones: D9 bundles routine politeness (always 4–5) with AI disclosur
 highest-signal dimension in the whole set - it is the only thing separating call 02
 from call 10 - and I nearly cut it as soft.
 
-TODO(me): re-score 2–3 of these yourself before trusting the table. My scores are
-one rater. Anywhere you disagree is worth writing down, because a second rater's
-disagreements are the only calibration data this submission has.
+Limitation, stated plainly: these scores are one rater, unadjudicated. The first
+calibration step once a second rater exists is to re-score calls 11, 17, and 21
+blind and log the disagreements - those disagreements, not the agreements, are the
+seed of the gold set.

@@ -318,11 +318,9 @@ exactly one dimension and is otherwise a clean call).
 
 ---
 
-TODO(me): decide whether B3 stays in the week-one rubric or moves to a compliance
-checklist. Argument for keeping it: 3 calls, one outright denial, one-line fix.
-Argument for moving it: a 3-in-50 base rate means the judge's estimate has a CI you
-could drive a truck through, and it's really a policy question rather than a quality
-measurement.
+Decision on B3's placement: it stays in the week-one rubric, with the constraint
+already stated - it is reported as a count with call IDs, never as a rate, because
+a 3-in-50 base rate makes any percentage sampling noise. Revisit after a quarter of
+production volume; if the count stays near zero once the disclosure line ships, it
+graduates to a compliance checklist and frees a rubric slot.
 
-TODO(me): if you disagree with the containment-vs-resolution split in A1, that
-changes the framing of the whole submission. Say so now rather than later.

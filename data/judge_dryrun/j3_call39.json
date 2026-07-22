@@ -1,0 +1,18 @@
+{
+ "checkable_claims": [
+  {
+   "claim_turn_id": "T6",
+   "claim_quote": "I\u2019m calling to remind you of your appointment on Sunday",
+   "contradiction_turn_id": "T9",
+   "contradiction_quote": "You open on Sunday",
+   "evidence_type": "caller_contradiction",
+   "agent_conceded": true
+  }
+ ],
+ "unverifiable_claims_seen": 1,
+ "rationale": "The agent stated the appointment day as Sunday; the caller challenged it and the agent conceded, restating Monday. Day-of-week is not redacted, so this is transcript-provable. The corrected Monday date itself remains unverifiable and was not scored.",
+ "score": 1,
+ "confidence": "high",
+ "abstain": false,
+ "abstain_reason": null
+}

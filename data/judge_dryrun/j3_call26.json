@@ -1,0 +1,9 @@
+{
+ "checkable_claims": [],
+ "unverifiable_claims_seen": 2,
+ "rationale": "The only factual claims are the sixty-five dollar balance and the statement date, neither verifiable from the transcript. The caller's 'it's sixty dollars, right?' is answered with a restatement of sixty-five which the caller accepts, so there is no concession to score. Abstain per instructions.",
+ "score": null,
+ "confidence": "high",
+ "abstain": true,
+ "abstain_reason": "unverifiable_external_claim"
+}
