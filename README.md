@@ -8,7 +8,6 @@ produced them, and six evidenced failure patterns.
 the sample-size caveats and the two framing assumptions everything else depends on.
 
 **Video walkthrough:** https://drive.google.com/drive/folders/1HMUtRGlaRcKJO4AorIoWdo811WJr1att?usp=sharing
-(a copy is also in this repo as `Explaination_Video.mp4`).
 
 | | |
 |---|---|
