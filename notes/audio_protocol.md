@@ -65,7 +65,7 @@ Six things, in priority order. The first three are the ones that can only be
 learned from audio.
 
 1. **Response latency and dead air.** Time from the caller finishing to the agent
-   starting. Where does it exceed ~2s? Does the agent fill it or just go quiet?
+   starting. Where does it exceed about 2s? Does the agent fill it or just go quiet?
    Note whether the long gaps cluster around lookups ("I am verifying your
    information").
 2. **Barge-in handling.** When the caller starts speaking over the agent, does the

@@ -40,7 +40,7 @@ key order rather than reordering to match the schema alphabetically.
 returns ids *and* verbatim quotes. Ids let you diff judge attention across prompt
 versions. Quotes let you catch fabricated evidence: any quote that doesn't
 string-match the transcript is an automatic re-run, and a persistent quote-match
-failure rate above ~2% means the prompt is too long or the transcript is truncating.
+failure rate above about 2% means the prompt is too long or the transcript is truncating.
 
 **Length and position bias.** The longest call in the set is 1205 words and the
 shortest scoreable one is 36. Two mitigations: (a) anchors are stated as behaviours
@@ -48,7 +48,7 @@ with call-grounded examples rather than as "did the agent do enough", which
 otherwise tracks length; (b) for any dimension used to compare agent versions, run
 each transcript twice with the few-shot examples in reversed order and flag
 disagreements for human review. On a 4-point anchored scale, order-flip disagreement
-above ~10% means the anchors aren't doing their job.
+above about 10% means the anchors aren't doing their job.
 
 **No score without an abstain path.** Every judge can return `abstain: true`. A
 judge forced to score a truncated transcript will invent an outcome. Nine of the 50
@@ -67,8 +67,8 @@ held-out set. Weighted κ, because a 4-vs-1 disagreement is much worse than 4-vs
 and unweighted κ treats them identically. For A1 (categorical) use unweighted κ and
 publish the confusion matrix - the interesting failure is `committed` vs `deferred`,
 which is one regex away and is the distinction the product team cares about. For B3
-(1–3, base rate ~6%) κ is unstable at this n; report raw agreement and the count of
-disagreements, and don't quote a κ until the gold set exceeds ~150 calls.
+(1–3, base rate about 6%) κ is unstable at this n; report raw agreement and the count of
+disagreements, and don't quote a κ until the gold set exceeds about 150 calls.
 
 Gold set: **60 calls minimum, stratified by intent and by A1 outcome**, double-scored
 by two humans with disagreements adjudicated. The 12 in `notes/manual_scoring_v0.md`
@@ -676,10 +676,10 @@ Rates assume roughly 2,000 calls/week. Scale the sample sizes, not the cadences.
 | **A1 Call Outcome** | High | Categorical with observable anchors. The `committed` vs `deferred` boundary is the only soft edge and it reduces to "is there a timeframe", which a regex corroborates. | Weekly | 40/wk, stratified across all six outcome values, oversampling `committed` and `transferred_failed` |
 | **A2 Escalation Appropriateness** | Medium | Level 3 ("right decision, late") depends on judging when the caller *first* signalled, which is genuinely contestable. Levels 1 and 4 are crisp. | Weekly | 30/wk, all `escalation_score=1`, plus all `caller_requested_human=true` regardless of score |
 | **A3 Non-Repetition** | High | Deterministic pre-filter plus a narrow adjudication. The 3-vs-2 boundary (confirmation or not) is the only judgment and it's well anchored. | Biweekly | 20, half drawn from `flag_was_false_positive=true` to measure the regex's precision |
-| **A4 Grounded Accuracy** | **Low - widest CI in the set** | Base rate ~4% (2 of 50). At that rate a handful of misjudgments moves the estimate by half. It also measures caller-caught errors only, so its recall against real errors is unknown and probably poor. | Weekly | **All non-abstains** (expected ~20–80/wk), plus 20 abstains to check the judge isn't abstaining to avoid work |
+| **A4 Grounded Accuracy** | **Low - widest CI in the set** | Base rate about 4% (2 of 50). At that rate a handful of misjudgments moves the estimate by half. It also measures caller-caught errors only, so its recall against real errors is unknown and probably poor. | Weekly | **All non-abstains** (expected about 20–80/wk), plus 20 abstains to check the judge isn't abstaining to avoid work |
 | **B1 Expectation Clarity** | Medium-high | Two of the four levels have deterministic corroboration (reference number, timeframe). The 3-vs-2 line is soft. | Weekly | 30/wk, all `next_action_owner="ambiguous"`, all `score=1` |
 | **B2 Responsive Acknowledgment** | **Low - widest CI in the set** | Requires inferring what the agent *should* have done. Two humans will disagree on the 2-vs-3 boundary constantly. This is the dimension most likely to drift silently when the model behind the judge is upgraded. | Weekly, plus double-scoring | 40/wk, **double-scored by two humans**, all `empathy_language_present=true AND plan_changed=false` |
-| **B3 Identity & Trust** | **Low - base rate under 10%** | 3 clear cases in 50 (~6%). Any weekly percentage is dominated by sampling noise. Severity is high and the fix is one line, so measure it as a **count with call IDs, never as a rate.** | Weekly | **100% of non-abstains.** At this base rate that's ~30–120 calls/wk and it's cheap. Every `denied` is a same-day escalation, not a weekly report line. |
+| **B3 Identity & Trust** | **Low - base rate under 10%** | 3 clear cases in 50 (about 6%). Any weekly percentage is dominated by sampling noise. Severity is high and the fix is one line, so measure it as a **count with call IDs, never as a rate.** | Weekly | **100% of non-abstains.** At this base rate that's about 30–120 calls/wk and it's cheap. Every `denied` is a same-day escalation, not a weekly report line. |
 
 ## What triggers a prompt rewrite
 
@@ -705,7 +705,7 @@ Any one of these, not a committee:
 ## What I would not automate yet
 
 Nothing in this rubric requires a human in the loop permanently, which is the
-brief's point. But B2 should stay double-scored for its first ~8 weeks before anyone
+brief's point. But B2 should stay double-scored for its first 8 weeks before anyone
 puts it on a dashboard a product decision hangs on. It is the dimension where I have
 the least confidence that my own anchors are right, and the manual round only gave
 it 12 data points.

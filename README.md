@@ -7,9 +7,12 @@ produced them, and six evidenced failure patterns.
 **Start here: [deliverables/00_README.md](deliverables/00_README.md)** - it states
 the sample-size caveats and the two framing assumptions everything else depends on.
 
+**Video walkthrough:** https://drive.google.com/drive/folders/1HMUtRGlaRcKJO4AorIoWdo811WJr1att?usp=sharing
+(a copy is also in this repo as `Explaination_Video.mp4`).
+
 | | |
 |---|---|
-| [deliverables/](deliverables/) | the submission: rubric, judge prompts, error analysis, failure patterns, video notes |
+| [deliverables/](deliverables/) | the submission: rubric, judge prompts, error analysis, failure patterns |
 | [notes/](notes/) | working evidence: full read log of all 50 transcripts, manual scoring round, audio findings |
 | [data/](data/) | per-call transcripts, mechanical index, intent labels, ASR output, judge dry-run results |
 | [scripts/](scripts/) | the pipeline, plus `verify.py`, which re-derives every numeric claim from the raw data and string-matches every quoted passage against its source (it prints its own check count) |

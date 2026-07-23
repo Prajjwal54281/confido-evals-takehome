@@ -298,7 +298,7 @@ the preceding content showed the longest gaps sit immediately after PII requests
 name, DOB, member ID - meaning they are anonymization cuts, which the brief
 explicitly says not to penalise. A latency metric built on this audio would mostly
 score the anonymizer. Genuine stalls exist (a 12s freeze mid-provider-list in
-209bf832bf90, ~5–8s on lookups) and the transcripts corroborate a stall problem
+209bf832bf90, about 5–8s on lookups) and the transcripts corroborate a stall problem
 independently (11 calls contain "Are you still there?" / "I am still here"; call
 03's caller says "Hello?" thinking the line dropped; call 47's caller asks for a
 human during a lookup pause). **In production, with uncut dual-channel audio and

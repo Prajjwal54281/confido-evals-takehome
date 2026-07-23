@@ -452,5 +452,5 @@ Provenance note: every audio quote in this document is machine transcription
 output with segment timestamps is committed in `data/audio_transcripts/`, so every
 quote is checkable against it, and `scripts/verify.py` string-matches each quoted
 passage against those files on every run. The two files that matter most, if anyone
-wants to verify by ear: 381df7d8fd17 (triage re-ask, ~50–75s) and c8bbec5bd602
+wants to verify by ear: 381df7d8fd17 (triage re-ask, about 50–75s) and c8bbec5bd602
 (three refused escalation requests).

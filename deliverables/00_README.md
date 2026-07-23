@@ -45,7 +45,6 @@ you disagree with it, most of what follows reads differently.
 | `02_judge_prompts.md` | 6 copy-pasteable judge prompts, JSON schemas, confidence and audit-cadence table |
 | `03_failure_patterns.md` | 6 patterns with call IDs, quoted evidence, mechanisms, fixes, ranking, devil's-advocate pass |
 | `04_error_analysis.md` | the manual-scoring loop, including a before/after diff of the empathy judge |
-| `05_video_script.md` | talking points for the optional video |
 
 **Working notes** (`notes/`) - the evidence the deliverables rest on.
 

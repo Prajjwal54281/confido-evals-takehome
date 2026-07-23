@@ -72,7 +72,7 @@ The longest gaps are almost all redaction: 19.7s after "And what is your member 
 on this audio would do exactly that.** Retract the implied latency finding. Genuine
 agent stalls in this sample are modest: 7.9s (5efc2f655ab6, after the caller finishes
 describing a corneal scratch, before "Please wait while I create a callback request")
-and ~5s on record lookups.
+and about 5s on record lookups.
 
 The one long gap that is *not* redaction and *not* a normal stall is in
 209bf832bf90 and it's a real defect - see P-3 below.

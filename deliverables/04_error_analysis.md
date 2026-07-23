@@ -223,7 +223,7 @@ meaningless.
 The non-negotiable one. A judge calibrated against one agent version silently
 mis-scores the next. Before and after every agent release: re-run the full gold set,
 diff the score distributions per dimension, and require a human to sign off on any
-distribution shift over ~1 standard deviation. The failure mode this prevents is a
+distribution shift over about one standard deviation. The failure mode this prevents is a
 dashboard that has quietly stopped meaning anything while continuing to render.
 
 ### Re-calibration cadence

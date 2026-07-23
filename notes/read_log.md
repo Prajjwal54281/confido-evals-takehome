@@ -20,7 +20,7 @@ Ends mid-sentence. Contains the string-concat bug: `for our teamYour request has
 been submitted`.
 
 **call_02** - Nurse at another practice wants two visit notes faxed. Same slot-fill,
-~12 questions. Agent asks for email twice (once before the fax detour, once after)
+about 12 questions. Agent asks for email twice (once before the fax detour, once after)
 and the caller had already declined. Ticket, urgent flag. NOT resolved in call.
 Same concat bug.
 
@@ -31,11 +31,11 @@ long enough that the caller thought the line dropped. At the very end the caller
 volunteers "I don't have any demographics with that either. Just her date of
 birth" and the agent ignores the content entirely and closes with "You are all set."
 
-**call_04** - Provider's office wants the most recent eye report faxed. ~14
+**call_04** - Provider's office wants the most recent eye report faxed. about 14
 questions. Agent says "I am verifying the patient information now" and then never
 reports the outcome of that verification. Ticket. NOT resolved. Concat bug.
 
-**call_05** - Same intent as 04, different caller. Same ~13-question flow. Caller
+**call_05** - Same intent as 04, different caller. A similar 13-question flow. Caller
 doesn't know the date range; agent notes "not provided" and proceeds. Ticket. NOT
 resolved. Concat bug.
 
